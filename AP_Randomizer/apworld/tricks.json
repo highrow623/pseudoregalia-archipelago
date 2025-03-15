@@ -4209,9 +4209,9 @@
         ]
     },
     "tag_hierarchy": {
-        "expert": [],
-        "hard": [],
-        "lunatic": [],
+        "expert": ["hard", "obscure"],
+        "hard": ["only_require_6_keys"],
+        "lunatic": ["expert"],
         "obscure": []
     }
 }

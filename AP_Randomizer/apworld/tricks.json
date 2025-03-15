@@ -1,15 +1,15 @@
 {
-    "region_tricks": {
+    "entrance_tricks": {
         "Castle => Theatre (Front) -> Castle By Scythe Corridor": [
             {
                 "id": "c_to_theatre-c_scythe-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_to_theatre-c_scythe-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -17,13 +17,13 @@
             },
             {
                 "id": "c_to_theatre-c_scythe-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_to_theatre-c_scythe-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -32,7 +32,7 @@
             },
             {
                 "id": "c_to_theatre-c_scythe-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -43,13 +43,13 @@
         "Castle => Theatre (Front) -> Castle Moon Room": [
             {
                 "id": "c_to_theatre-c_moon_room-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_to_theatre-c_moon_room-ss-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true,
@@ -58,7 +58,7 @@
             },
             {
                 "id": "c_to_theatre-c_moon_room-sl-sw-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 2
@@ -66,7 +66,7 @@
             },
             {
                 "id": "c_to_theatre-c_moon_room-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 },
                 "tags": [
@@ -75,7 +75,7 @@
             },
             {
                 "id": "c_to_theatre-c_moon_room-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -86,13 +86,13 @@
         "Castle => Theatre (Front) -> Theatre Main": [
             {
                 "id": "c_to_theatre-t_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Castle By Scythe Corridor -> Castle => Theatre (Front)": [
             {
                 "id": "c_scythe-c_to_theatre-ss-cg-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -100,14 +100,14 @@
             },
             {
                 "id": "c_scythe-c_to_theatre-cg-2k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "c_scythe-c_to_theatre-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -116,7 +116,7 @@
             },
             {
                 "id": "c_scythe-c_to_theatre-sl-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 2
                 },
@@ -126,7 +126,7 @@
             },
             {
                 "id": "c_scythe-c_to_theatre-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 1
@@ -139,26 +139,26 @@
         "Castle By Scythe Corridor -> Castle High Climb": [
             {
                 "id": "c_scythe-c_high_climb-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_scythe-c_high_climb-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_scythe-c_high_climb-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "c_scythe-c_high_climb-ss-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true,
@@ -167,7 +167,7 @@
             },
             {
                 "id": "c_scythe-c_high_climb-db-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 3
                 },
@@ -177,7 +177,7 @@
             },
             {
                 "id": "c_scythe-c_high_climb-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -187,7 +187,7 @@
             },
             {
                 "id": "c_scythe-c_high_climb-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -196,7 +196,7 @@
             },
             {
                 "id": "c_scythe-c_high_climb-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -207,20 +207,20 @@
         "Castle By Scythe Corridor -> Castle Spiral Climb": [
             {
                 "id": "c_scythe-c_spiral_climb-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_scythe-c_spiral_climb-ss-4k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 4
                 }
             },
             {
                 "id": "c_scythe-c_spiral_climb-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -231,20 +231,20 @@
         "Castle Main -> Castle Spiral Climb": [
             {
                 "id": "c_main-c_spiral_climb-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_main-c_spiral_climb-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_main-c_spiral_climb-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -253,7 +253,7 @@
             },
             {
                 "id": "c_main-c_spiral_climb-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -263,7 +263,7 @@
             },
             {
                 "id": "c_main-c_spiral_climb-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -274,7 +274,7 @@
             },
             {
                 "id": "c_main-c_spiral_climb-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -285,31 +285,31 @@
         "Castle Main -> Dungeon => Castle": [
             {
                 "id": "c_main-d_to_castle",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Castle Main -> Empty Bailey": [
             {
                 "id": "c_main-b_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Castle Main -> Keep Main": [
             {
                 "id": "c_main-k_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Castle Main -> Library Main": [
             {
                 "id": "c_main-l_main-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "c_main-l_main-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -320,34 +320,34 @@
         "Castle Main -> Theatre Pillar": [
             {
                 "id": "c_main-t_pillar-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_main-t_pillar-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_main-t_pillar-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_main-t_pillar-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_main-t_pillar-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -356,7 +356,7 @@
             },
             {
                 "id": "c_main-t_pillar-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -365,7 +365,7 @@
             },
             {
                 "id": "c_main-t_pillar-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -374,7 +374,7 @@
             },
             {
                 "id": "c_main-t_pillar-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -385,13 +385,13 @@
         "Castle Spiral Climb -> Castle By Scythe Corridor": [
             {
                 "id": "c_spiral_climb-c_scythe-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_spiral_climb-c_scythe-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 },
@@ -401,7 +401,7 @@
             },
             {
                 "id": "c_spiral_climb-c_scythe-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 },
                 "tags": [
@@ -410,7 +410,7 @@
             },
             {
                 "id": "c_spiral_climb-c_scythe-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -421,27 +421,27 @@
         "Castle Spiral Climb -> Castle High Climb": [
             {
                 "id": "c_spiral_climb-c_high_climb-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_spiral_climb-c_high_climb-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "c_spiral_climb-c_high_climb-db-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_spiral_climb-c_high_climb-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -451,7 +451,7 @@
             },
             {
                 "id": "c_spiral_climb-c_high_climb-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 },
@@ -461,7 +461,7 @@
             },
             {
                 "id": "c_spiral_climb-c_high_climb-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -470,7 +470,7 @@
             },
             {
                 "id": "c_spiral_climb-c_high_climb-db-sl-sw",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "solar_wind": true
@@ -482,7 +482,7 @@
             },
             {
                 "id": "c_spiral_climb-c_high_climb-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -494,7 +494,7 @@
             },
             {
                 "id": "c_spiral_climb-c_high_climb",
-                "items": {},
+                "loadout": {},
                 "tags": [
                     "expert"
                 ]
@@ -503,32 +503,32 @@
         "Castle Spiral Climb -> Castle Main": [
             {
                 "id": "c_spiral_climb-c_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dungeon => Castle -> Castle Main": [
             {
                 "id": "d_to_castle-c_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dungeon => Castle -> Dungeon Mirror": [
             {
                 "id": "d_to_castle-d_mirror",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dungeon => Castle -> Dungeon Strong Eyes": [
             {
                 "id": "d_to_castle-d_strong_eyes-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "d_to_castle-d_strong_eyes-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -540,27 +540,27 @@
         "Dungeon Escape Lower -> Dungeon Escape Upper": [
             {
                 "id": "d_escape_lower-d_escape_upper-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "d_escape_lower-d_escape_upper-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "d_escape_lower-d_escape_upper-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "d_escape_lower-d_escape_upper-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -569,7 +569,7 @@
             },
             {
                 "id": "d_escape_lower-d_escape_upper-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -578,7 +578,7 @@
             },
             {
                 "id": "d_escape_lower-d_escape_upper-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -588,7 +588,7 @@
             },
             {
                 "id": "d_escape_lower-d_escape_upper-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -600,13 +600,13 @@
         "Dungeon Escape Lower -> Dungeon Slide": [
             {
                 "id": "d_escape_lower-d_slide-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "d_escape_lower-d_slide-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -617,38 +617,38 @@
         "Dungeon Escape Lower -> Underbelly => Dungeon": [
             {
                 "id": "d_escape_lower-u_to_dungeon",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dungeon Escape Upper -> Theatre Outside Scythe Corridor": [
             {
                 "id": "d_escape_upper-t_scythe-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "d_escape_upper-t_scythe-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "d_escape_upper-t_scythe-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "d_escape_upper-t_scythe-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "d_escape_upper-t_scythe-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -659,13 +659,13 @@
         "Dungeon Mirror -> Dungeon Slide": [
             {
                 "id": "d_mirror-d_slide-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "d_mirror-d_slide-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -676,20 +676,20 @@
         "Dungeon Slide -> Dungeon Escape Lower": [
             {
                 "id": "d_slide-d_escape_lower-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "d_slide-d_escape_lower-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "d_slide-d_escape_lower-ss-al",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "ascendant_light": true
                 },
@@ -701,13 +701,13 @@
         "Dungeon Slide -> Dungeon Mirror": [
             {
                 "id": "d_slide-d_mirror-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "d_slide-d_mirror-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -718,7 +718,7 @@
         "Dungeon Slide -> Dungeon Strong Eyes": [
             {
                 "id": "d_slide-d_strong_eyes-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -726,14 +726,14 @@
         "Dungeon Strong Eyes -> Dungeon => Castle": [
             {
                 "id": "d_strong_eyes-d_to_castle-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "d_strong_eyes-d_to_castle-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -745,7 +745,7 @@
         "Dungeon Strong Eyes -> Dungeon Slide": [
             {
                 "id": "d_strong_eyes-d_slide-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -753,32 +753,32 @@
         "Empty Bailey -> Castle Main": [
             {
                 "id": "b_main-c_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Empty Bailey -> Theatre Pillar": [
             {
                 "id": "b_main-t_pillar",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Empty Bailey -> Tower Remains": [
             {
                 "id": "b_main-r_main-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "b_main-r_main-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 }
             },
             {
                 "id": "b_main-r_main-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             }
@@ -786,43 +786,43 @@
         "Keep => Underbelly -> Keep Main": [
             {
                 "id": "k_to_underbelly-k_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Keep => Underbelly -> Underbelly => Keep": [
             {
                 "id": "k_to_underbelly-u_to_keep",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Keep Locked Room -> Keep Sunsetter": [
             {
                 "id": "k_locked-k_sunsetter",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Keep Main -> Keep => Underbelly": [
             {
                 "id": "k_main-k_to_underbelly-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "k_main-k_to_underbelly-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "k_main-k_to_underbelly-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "k_main-k_to_underbelly-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -833,41 +833,41 @@
         "Keep Main -> Keep Locked Room": [
             {
                 "id": "k_main-k_locked-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "k_main-k_locked-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "k_main-k_locked-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "k_main-k_locked-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "k_main-k_locked-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "k_main-k_locked-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -877,7 +877,7 @@
             },
             {
                 "id": "k_main-k_locked",
-                "items": {},
+                "loadout": {},
                 "tags": [
                     "hard"
                 ]
@@ -886,7 +886,7 @@
         "Keep Main -> Keep Path To Throne": [
             {
                 "id": "k_main-k_path-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             }
@@ -894,13 +894,13 @@
         "Keep Main -> Keep Sunsetter": [
             {
                 "id": "k_main-k_sunsetter-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "k_main-k_sunsetter",
-                "items": {},
+                "loadout": {},
                 "tags": [
                     "hard"
                 ]
@@ -909,33 +909,33 @@
         "Keep Main -> Theatre Outside Scythe Corridor": [
             {
                 "id": "k_main-t_scythe-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "k_main-t_scythe-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "k_main-t_scythe-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "k_main-t_scythe-sl-sw",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true
                 }
             },
             {
                 "id": "k_main-t_scythe-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -946,19 +946,19 @@
         "Library Greaves -> Library Top": [
             {
                 "id": "l_greaves-l_top-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "l_greaves-l_top-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "l_greaves-l_top-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -967,7 +967,7 @@
             },
             {
                 "id": "l_greaves-l_top-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -978,7 +978,7 @@
         "Library Main -> Library Greaves": [
             {
                 "id": "l_main-l_greaves-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -986,14 +986,14 @@
         "Library Main -> Library Locked": [
             {
                 "id": "l_main-l_locked-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "l_main-l_locked-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -1005,20 +1005,20 @@
         "Library Main -> Library Top": [
             {
                 "id": "l_main-l_top-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "l_main-l_top-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "l_main-l_top-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -1028,7 +1028,7 @@
             },
             {
                 "id": "l_main-l_top-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -1037,7 +1037,7 @@
             },
             {
                 "id": "l_main-l_top-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -1047,7 +1047,7 @@
             },
             {
                 "id": "l_main-l_top-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -1058,28 +1058,28 @@
         "Library Top -> Library Greaves": [
             {
                 "id": "l_top-l_greaves-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "l_top-l_greaves-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "l_top-l_greaves-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "l_top-l_greaves-db-al-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 3
@@ -1087,7 +1087,7 @@
             },
             {
                 "id": "l_top-l_greaves-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -1096,7 +1096,7 @@
             },
             {
                 "id": "l_top-l_greaves-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -1105,7 +1105,7 @@
             },
             {
                 "id": "l_top-l_greaves-db-ss-al-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true,
@@ -1117,7 +1117,7 @@
             },
             {
                 "id": "l_top-l_greaves-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -1126,7 +1126,7 @@
             },
             {
                 "id": "l_top-l_greaves-db-ss-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true,
@@ -1140,7 +1140,7 @@
         "Theatre Main -> Keep Main": [
             {
                 "id": "t_main-k_main-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             }
@@ -1148,14 +1148,14 @@
         "Theatre Outside Scythe Corridor -> Theatre Main": [
             {
                 "id": "t_scythe-t_main-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "t_scythe-t_main-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true
@@ -1165,14 +1165,14 @@
         "Theatre Pillar -> Theatre Main": [
             {
                 "id": "t_pillar-t_main-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "t_pillar-t_main-ss-4k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 4
                 }
@@ -1181,7 +1181,7 @@
         "Tower Remains -> The Great Door": [
             {
                 "id": "r_main-r_door-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 }
@@ -1190,7 +1190,7 @@
         "Tower Remains -> Underbelly Little Guy": [
             {
                 "id": "r_main-u_little_guy-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             }
@@ -1198,32 +1198,32 @@
         "Underbelly => Dungeon -> Dungeon Escape Lower": [
             {
                 "id": "u_to_dungeon-d_escape_lower",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly => Dungeon -> Underbelly Ascendant Light": [
             {
                 "id": "u_to_dungeon-u_ascendant_light-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -1231,7 +1231,7 @@
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 },
                 "tags": [
@@ -1240,7 +1240,7 @@
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -1250,7 +1250,7 @@
             },
             {
                 "id": "u_to_dungeon-u_ascendant_light-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -1262,19 +1262,19 @@
         "Underbelly => Dungeon -> Underbelly Light Pillar": [
             {
                 "id": "u_to_dungeon-u_pillar",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly => Keep -> Keep => Underbelly": [
             {
                 "id": "u_to_keep-k_to_underbelly",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly => Keep -> Underbelly Hole": [
             {
                 "id": "u_to_keep-u_hole-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             }
@@ -1282,26 +1282,26 @@
         "Underbelly Ascendant Light -> Underbelly => Dungeon": [
             {
                 "id": "u_ascendant_light-u_to_dungeon-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "u_ascendant_light-u_to_dungeon-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "u_ascendant_light-u_to_dungeon-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "u_ascendant_light-u_to_dungeon-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -1309,7 +1309,7 @@
             },
             {
                 "id": "u_ascendant_light-u_to_dungeon-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -1319,7 +1319,7 @@
             },
             {
                 "id": "u_ascendant_light-u_to_dungeon-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -1332,19 +1332,19 @@
         "Underbelly Ascendant Light -> Underbelly Light Pillar": [
             {
                 "id": "u_ascendant_light-u_pillar",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly By Heliacal -> Underbelly Main Upper": [
             {
                 "id": "u_heliacal-u_main_upper-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "u_heliacal-u_main_upper-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -1353,7 +1353,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true
@@ -1364,7 +1364,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-db-ss",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true
                 },
@@ -1374,7 +1374,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 },
                 "tags": [
@@ -1384,7 +1384,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -1394,7 +1394,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 },
                 "tags": [
@@ -1404,7 +1404,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -1413,7 +1413,7 @@
             },
             {
                 "id": "u_heliacal-u_main_upper-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -1424,7 +1424,7 @@
         "Underbelly Hole -> Underbelly => Keep": [
             {
                 "id": "u_hole-u_to_keep-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -1432,13 +1432,13 @@
         "Underbelly Hole -> Underbelly Main Lower": [
             {
                 "id": "u_hole-u_main_lower-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "u_hole-u_main_lower-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true
@@ -1446,13 +1446,13 @@
             },
             {
                 "id": "u_hole-u_main_lower-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "u_hole-u_main_lower-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -1461,7 +1461,7 @@
             },
             {
                 "id": "u_hole-u_main_lower-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -1470,7 +1470,7 @@
             },
             {
                 "id": "u_hole-u_main_lower-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -1479,7 +1479,7 @@
             },
             {
                 "id": "u_hole-u_main_lower-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -1490,27 +1490,27 @@
         "Underbelly Light Pillar -> Underbelly => Dungeon": [
             {
                 "id": "u_pillar-u_to_dungeon-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "u_pillar-u_to_dungeon-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "u_pillar-u_to_dungeon-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "u_pillar-u_to_dungeon-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 },
@@ -1520,7 +1520,7 @@
             },
             {
                 "id": "u_pillar-u_to_dungeon-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 1
@@ -1531,7 +1531,7 @@
             },
             {
                 "id": "u_pillar-u_to_dungeon-sl-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 2
                 },
@@ -1543,21 +1543,21 @@
         "Underbelly Light Pillar -> Underbelly Ascendant Light": [
             {
                 "id": "u_pillar-u_ascendant_light-db-ss",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_pillar-u_ascendant_light-db-4k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 4
                 }
             },
             {
                 "id": "u_pillar-u_ascendant_light-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 },
@@ -1567,7 +1567,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-db-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 3
                 },
@@ -1577,7 +1577,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -1588,7 +1588,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -1599,7 +1599,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -1611,7 +1611,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-db-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 2
                 },
@@ -1621,7 +1621,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-db-cg-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -1632,7 +1632,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-db-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true
                 },
@@ -1642,7 +1642,7 @@
             },
             {
                 "id": "u_pillar-u_ascendant_light-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -1654,37 +1654,37 @@
         "Underbelly Light Pillar -> Underbelly Main Upper": [
             {
                 "id": "u_pillar-u_main_upper",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly Little Guy -> Empty Bailey": [
             {
                 "id": "u_little_guy-b_main",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly Little Guy -> Underbelly Main Lower": [
             {
                 "id": "u_little_guy-u_main_lower-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "u_little_guy-u_main_lower-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_little_guy-u_main_lower-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "u_little_guy-u_main_lower",
-                "items": {},
+                "loadout": {},
                 "tags": [
                     "hard"
                 ]
@@ -1693,14 +1693,14 @@
         "Underbelly Main Lower -> Underbelly By Heliacal": [
             {
                 "id": "u_main_lower-u_heliacal-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 }
             },
             {
                 "id": "u_main_lower-u_heliacal-sl-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 2
                 },
@@ -1711,7 +1711,7 @@
             },
             {
                 "id": "u_main_lower-u_heliacal-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -1722,14 +1722,14 @@
         "Underbelly Main Lower -> Underbelly Hole": [
             {
                 "id": "u_main_lower-u_hole-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "u_main_lower-u_hole-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -1737,14 +1737,14 @@
             },
             {
                 "id": "u_main_lower-u_hole-db-ss",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_main_lower-u_hole-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -1753,7 +1753,7 @@
             },
             {
                 "id": "u_main_lower-u_hole-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -1763,7 +1763,7 @@
             },
             {
                 "id": "u_main_lower-u_hole-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -1775,20 +1775,20 @@
         "Underbelly Main Lower -> Underbelly Little Guy": [
             {
                 "id": "u_main_lower-u_little_guy",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Underbelly Main Lower -> Underbelly Main Upper": [
             {
                 "id": "u_main_lower-u_main_upper-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "u_main_lower-u_main_upper-ss-cg-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -1796,7 +1796,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 },
@@ -1807,7 +1807,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -1817,7 +1817,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 },
                 "tags": [
@@ -1826,7 +1826,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-sl-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "cling_gem": true
                 },
@@ -1836,7 +1836,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-sl-3k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 3
                 },
@@ -1846,7 +1846,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 1
@@ -1857,7 +1857,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-db-sl-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "kicks": 1
@@ -1868,7 +1868,7 @@
             },
             {
                 "id": "u_main_lower-u_main_upper-sl-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 2
                 },
@@ -1880,14 +1880,14 @@
         "Underbelly Main Upper -> Underbelly By Heliacal": [
             {
                 "id": "u_main_upper-u_heliacal-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "u_main_upper-u_heliacal-db-sl-sw-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "solar_wind": true,
@@ -1896,7 +1896,7 @@
             },
             {
                 "id": "u_main_upper-u_heliacal-db-cg-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true,
                     "kicks": 2
@@ -1904,7 +1904,7 @@
             },
             {
                 "id": "u_main_upper-u_heliacal-db-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true
                 },
@@ -1914,7 +1914,7 @@
             },
             {
                 "id": "u_main_upper-u_heliacal-db-ss-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "kicks": 3
@@ -1927,21 +1927,21 @@
         "Underbelly Main Upper -> Underbelly Light Pillar": [
             {
                 "id": "u_main_upper-u_pillar-db-ss",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_main_upper-u_pillar-db-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "u_main_upper-u_pillar-ss-cg-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 2
@@ -1949,14 +1949,14 @@
             },
             {
                 "id": "u_main_upper-u_pillar-cg-4k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 4
                 }
             },
             {
                 "id": "u_main_upper-u_pillar-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -1966,7 +1966,7 @@
             },
             {
                 "id": "u_main_upper-u_pillar-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 },
@@ -1976,7 +1976,7 @@
             },
             {
                 "id": "u_main_upper-u_pillar-db-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true
                 },
@@ -1986,7 +1986,7 @@
             },
             {
                 "id": "u_main_upper-u_pillar-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -1996,7 +1996,7 @@
             },
             {
                 "id": "u_main_upper-u_pillar-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 },
@@ -2006,7 +2006,7 @@
             },
             {
                 "id": "u_main_upper-u_pillar-cg-2k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 2
                 },
@@ -2018,7 +2018,7 @@
         "Underbelly Main Upper -> Underbelly Main Lower": [
             {
                 "id": "u_main_upper-u_main_lower",
-                "items": {}
+                "loadout": {}
             }
         ]
     },
@@ -2026,34 +2026,34 @@
         "Castle Sansa - Alcove Near Dungeon": [
             {
                 "id": "c_dungeon_alcove-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_dungeon_alcove-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_dungeon_alcove-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_dungeon_alcove-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_dungeon_alcove-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2062,7 +2062,7 @@
             },
             {
                 "id": "c_dungeon_alcove-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -2071,7 +2071,7 @@
             },
             {
                 "id": "c_dungeon_alcove-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -2081,7 +2081,7 @@
             },
             {
                 "id": "c_dungeon_alcove-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2092,7 +2092,7 @@
         "Castle Sansa - Alcove Near Scythe Corridor": [
             {
                 "id": "c_scythe_alcove-ss-cg-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -2100,20 +2100,20 @@
             },
             {
                 "id": "c_scythe_alcove-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "c_scythe_alcove-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_scythe_alcove-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 },
@@ -2123,7 +2123,7 @@
             },
             {
                 "id": "c_scythe_alcove-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2132,7 +2132,7 @@
             },
             {
                 "id": "c_scythe_alcove-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -2141,7 +2141,7 @@
             },
             {
                 "id": "c_scythe_alcove-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -2151,7 +2151,7 @@
             },
             {
                 "id": "c_scythe_alcove-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -2161,7 +2161,7 @@
             },
             {
                 "id": "c_scythe_alcove-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -2170,7 +2170,7 @@
             },
             {
                 "id": "c_scythe_alcove-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -2181,26 +2181,26 @@
         "Castle Sansa - Balcony": [
             {
                 "id": "c_balcony-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_balcony-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "c_balcony-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "c_balcony-ss-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true,
@@ -2209,7 +2209,7 @@
             },
             {
                 "id": "c_balcony-sl-sw-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 2
@@ -2217,7 +2217,7 @@
             },
             {
                 "id": "c_balcony-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -2227,7 +2227,7 @@
             },
             {
                 "id": "c_balcony-db-sl-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "kicks": 1
@@ -2238,7 +2238,7 @@
             },
             {
                 "id": "c_balcony-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -2248,7 +2248,7 @@
             },
             {
                 "id": "c_balcony-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2259,19 +2259,19 @@
         "Castle Sansa - Corner Corridor": [
             {
                 "id": "c_corner_corridor-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_corner_corridor-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_corner_corridor-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -2280,7 +2280,7 @@
             },
             {
                 "id": "c_corner_corridor-sl-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 2
                 },
@@ -2290,7 +2290,7 @@
             },
             {
                 "id": "c_corner_corridor-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -2302,7 +2302,7 @@
         "Castle Sansa - Floater In Courtyard": [
             {
                 "id": "c_courtyard_floater-db-ss-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true
@@ -2310,7 +2310,7 @@
             },
             {
                 "id": "c_courtyard_floater-db-al-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 2
@@ -2318,27 +2318,27 @@
             },
             {
                 "id": "c_courtyard_floater-cg-2k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "c_courtyard_floater-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_courtyard_floater-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_courtyard_floater-db-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 1
@@ -2349,7 +2349,7 @@
             },
             {
                 "id": "c_courtyard_floater-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 },
@@ -2359,7 +2359,7 @@
             },
             {
                 "id": "c_courtyard_floater-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 },
@@ -2369,7 +2369,7 @@
             },
             {
                 "id": "c_courtyard_floater-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2378,7 +2378,7 @@
             },
             {
                 "id": "c_courtyard_floater-db-sl-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "ascendant_light": true
@@ -2389,7 +2389,7 @@
             },
             {
                 "id": "c_courtyard_floater-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -2399,7 +2399,7 @@
             },
             {
                 "id": "c_courtyard_floater-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -2410,27 +2410,27 @@
         "Castle Sansa - High Climb From Courtyard": [
             {
                 "id": "c_high_climb-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_high_climb-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_high_climb-db-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_high_climb-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -2440,7 +2440,7 @@
             },
             {
                 "id": "c_high_climb-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2449,7 +2449,7 @@
             },
             {
                 "id": "c_high_climb-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -2460,7 +2460,7 @@
             },
             {
                 "id": "c_high_climb-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2471,20 +2471,20 @@
         "Castle Sansa - Indignation": [
             {
                 "id": "c_indignation",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Castle Sansa - Locked Door": [
             {
                 "id": "c_locked-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "c_locked-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -2496,20 +2496,20 @@
         "Castle Sansa - Near Theatre Front": [
             {
                 "id": "c_near_theatre-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "c_near_theatre-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "c_near_theatre-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2518,7 +2518,7 @@
             },
             {
                 "id": "c_near_theatre-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2529,25 +2529,25 @@
         "Castle Sansa - Platform In Main Halls": [
             {
                 "id": "c_main_platform-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "c_main_platform-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_main_platform-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_main_platform-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -2556,7 +2556,7 @@
             },
             {
                 "id": "c_main_platform-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2565,7 +2565,7 @@
             },
             {
                 "id": "c_main_platform-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 },
@@ -2577,27 +2577,27 @@
         "Castle Sansa - Tall Room Near Wheel Crawlers": [
             {
                 "id": "c_tall_room-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_tall_room-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "c_tall_room-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_tall_room-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2606,7 +2606,7 @@
             },
             {
                 "id": "c_tall_room-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -2615,7 +2615,7 @@
             },
             {
                 "id": "c_tall_room-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -2627,7 +2627,7 @@
             },
             {
                 "id": "c_tall_room-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2638,26 +2638,26 @@
         "Castle Sansa - Wheel Crawlers": [
             {
                 "id": "c_crawlers-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "c_crawlers-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "c_crawlers-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "c_crawlers-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -2665,7 +2665,7 @@
             },
             {
                 "id": "c_crawlers-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -2674,7 +2674,7 @@
             },
             {
                 "id": "c_crawlers-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -2683,7 +2683,7 @@
             },
             {
                 "id": "c_crawlers-ss-sl-sw",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true
@@ -2694,7 +2694,7 @@
             },
             {
                 "id": "c_crawlers-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2705,13 +2705,13 @@
         "Dilapidated Dungeon - Alcove Near Mirror": [
             {
                 "id": "d_mirror_alcove",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dilapidated Dungeon - Dark Orbs": [
             {
                 "id": "d_dark_orbs-db-al-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "cling_gem": true
@@ -2719,7 +2719,7 @@
             },
             {
                 "id": "d_dark_orbs-ss-cg-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 2
@@ -2727,14 +2727,14 @@
             },
             {
                 "id": "d_dark_orbs-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "d_dark_orbs-db-al-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 2
@@ -2742,7 +2742,7 @@
             },
             {
                 "id": "d_dark_orbs-db-sl-sw-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "solar_wind": true,
@@ -2752,7 +2752,7 @@
             },
             {
                 "id": "d_dark_orbs-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2761,7 +2761,7 @@
             },
             {
                 "id": "d_dark_orbs-db-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 1
@@ -2772,7 +2772,7 @@
             },
             {
                 "id": "d_dark_orbs-db-ss-sl-sw-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "slide": true,
@@ -2785,7 +2785,7 @@
             },
             {
                 "id": "d_dark_orbs-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 },
@@ -2795,7 +2795,7 @@
             },
             {
                 "id": "d_dark_orbs-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -2805,7 +2805,7 @@
             },
             {
                 "id": "d_dark_orbs-db-sl-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "ascendant_light": true
@@ -2818,33 +2818,33 @@
         "Dilapidated Dungeon - Dream Breaker": [
             {
                 "id": "d_breaker",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dilapidated Dungeon - Past Poles": [
             {
                 "id": "d_past_poles-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 }
             },
             {
                 "id": "d_past_poles-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 }
             },
             {
                 "id": "d_past_poles-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "d_past_poles-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2853,7 +2853,7 @@
             },
             {
                 "id": "d_past_poles-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -2862,7 +2862,7 @@
             },
             {
                 "id": "d_past_poles-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 1
@@ -2875,20 +2875,20 @@
         "Dilapidated Dungeon - Rafters": [
             {
                 "id": "d_rafters-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "d_rafters-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "d_rafters-db-al-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "cling_gem": true
@@ -2899,7 +2899,7 @@
             },
             {
                 "id": "d_rafters-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -2908,7 +2908,7 @@
             },
             {
                 "id": "d_rafters-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -2918,7 +2918,7 @@
             },
             {
                 "id": "d_rafters-db-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 1
@@ -2929,7 +2929,7 @@
             },
             {
                 "id": "d_rafters-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -2938,7 +2938,7 @@
             },
             {
                 "id": "d_rafters-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -2948,7 +2948,7 @@
             },
             {
                 "id": "d_rafters-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -2958,7 +2958,7 @@
             },
             {
                 "id": "d_rafters-db-ss-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true
@@ -2969,7 +2969,7 @@
             },
             {
                 "id": "d_rafters-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -2980,19 +2980,19 @@
         "Dilapidated Dungeon - Slide": [
             {
                 "id": "d_slide",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Dilapidated Dungeon - Strong Eyes": [
             {
                 "id": "d_strong_eyes-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "d_strong_eyes-ss-cg-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -3003,7 +3003,7 @@
             },
             {
                 "id": "d_strong_eyes-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 },
@@ -3013,7 +3013,7 @@
             },
             {
                 "id": "d_strong_eyes-cg-2k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 2
                 },
@@ -3024,7 +3024,7 @@
             },
             {
                 "id": "d_strong_eyes-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -3033,7 +3033,7 @@
             },
             {
                 "id": "d_strong_eyes-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -3043,7 +3043,7 @@
             },
             {
                 "id": "d_strong_eyes-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -3055,13 +3055,13 @@
         "Empty Bailey - Center Steeple": [
             {
                 "id": "b_steeple-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "b_steeple-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 }
@@ -3070,7 +3070,7 @@
         "Empty Bailey - Cheese Bell": [
             {
                 "id": "b_bell-ss-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "solar_wind": true,
@@ -3079,7 +3079,7 @@
             },
             {
                 "id": "b_bell-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true
@@ -3087,7 +3087,7 @@
             },
             {
                 "id": "b_bell-ss-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3
                 }
@@ -3096,19 +3096,19 @@
         "Empty Bailey - Guarded Hand": [
             {
                 "id": "b_hand-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "b_hand-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "b_hand-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             }
@@ -3116,7 +3116,7 @@
         "Empty Bailey - Inside Building": [
             {
                 "id": "b_building-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -3124,7 +3124,7 @@
         "Empty Bailey - Solar Wind": [
             {
                 "id": "b_solar_wind-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 }
             }
@@ -3132,26 +3132,26 @@
         "Listless Library - Locked Door Across": [
             {
                 "id": "l_locked_across-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "l_locked_across-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "l_locked_across-sl-sw",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true
                 }
             },
             {
                 "id": "l_locked_across-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -3160,7 +3160,7 @@
             },
             {
                 "id": "l_locked_across-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -3171,13 +3171,13 @@
         "Listless Library - Locked Door Left": [
             {
                 "id": "l_locked_left-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "l_locked_left-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -3185,20 +3185,20 @@
             },
             {
                 "id": "l_locked_left-ss-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "l_locked_left-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "l_locked_left-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -3207,7 +3207,7 @@
             },
             {
                 "id": "l_locked_left-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -3217,7 +3217,7 @@
             },
             {
                 "id": "l_locked_left-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -3227,7 +3227,7 @@
             },
             {
                 "id": "l_locked_left-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -3239,13 +3239,13 @@
         "Listless Library - Sun Greaves": [
             {
                 "id": "l_greaves-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "l_greaves-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -3256,7 +3256,7 @@
         "Listless Library - Upper Back": [
             {
                 "id": "l_upper_back-db-ss-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "cling_gem": true
@@ -3264,7 +3264,7 @@
             },
             {
                 "id": "l_upper_back-db-cg-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -3272,7 +3272,7 @@
             },
             {
                 "id": "l_upper_back-db-ss-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "kicks": 1
@@ -3280,14 +3280,14 @@
             },
             {
                 "id": "l_upper_back-db-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 2
                 }
             },
             {
                 "id": "l_upper_back-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -3297,7 +3297,7 @@
             },
             {
                 "id": "l_upper_back-ss-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 1
                 },
@@ -3307,7 +3307,7 @@
             },
             {
                 "id": "l_upper_back-db-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true
                 },
@@ -3317,7 +3317,7 @@
             },
             {
                 "id": "l_upper_back-db-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true
                 },
@@ -3327,7 +3327,7 @@
             },
             {
                 "id": "l_upper_back-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -3339,19 +3339,19 @@
         "Sansa Keep - Alcove Near Locked Door": [
             {
                 "id": "k_locked_alcove",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Sansa Keep - Levers Room": [
             {
                 "id": "k_levers-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "k_levers-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -3360,7 +3360,7 @@
             },
             {
                 "id": "k_levers",
-                "items": {},
+                "loadout": {},
                 "tags": [
                     "lunatic"
                 ]
@@ -3369,7 +3369,7 @@
         "Sansa Keep - Lonely Throne": [
             {
                 "id": "k_throne-ss-cg-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -3377,7 +3377,7 @@
             },
             {
                 "id": "k_throne-ss-al-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "ascendant_light": true,
                     "cling_gem": true
@@ -3385,7 +3385,7 @@
             },
             {
                 "id": "k_throne-al-cg-1k",
-                "items": {
+                "loadout": {
                     "ascendant_light": true,
                     "cling_gem": true,
                     "kicks": 1
@@ -3393,14 +3393,14 @@
             },
             {
                 "id": "k_throne-al-4k",
-                "items": {
+                "loadout": {
                     "ascendant_light": true,
                     "kicks": 4
                 }
             },
             {
                 "id": "k_throne-ss-al-3k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "ascendant_light": true,
                     "kicks": 3
@@ -3408,7 +3408,7 @@
             },
             {
                 "id": "k_throne-ss-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true
                 },
@@ -3418,7 +3418,7 @@
             },
             {
                 "id": "k_throne-cg-2k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 2
                 },
@@ -3428,7 +3428,7 @@
             },
             {
                 "id": "k_throne-ss-4k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 4
                 },
@@ -3438,7 +3438,7 @@
             },
             {
                 "id": "k_throne-al-3k",
-                "items": {
+                "loadout": {
                     "ascendant_light": true,
                     "kicks": 3
                 },
@@ -3448,7 +3448,7 @@
             },
             {
                 "id": "k_throne-cg-1k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 1
                 },
@@ -3459,7 +3459,7 @@
             },
             {
                 "id": "k_throne-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -3468,7 +3468,7 @@
             },
             {
                 "id": "k_throne-ss-al-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "ascendant_light": true,
                     "kicks": 2
@@ -3479,7 +3479,7 @@
             },
             {
                 "id": "k_throne-sl-3k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 3
                 },
@@ -3489,7 +3489,7 @@
             },
             {
                 "id": "k_throne-ss-sl-2k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 2
@@ -3500,7 +3500,7 @@
             },
             {
                 "id": "k_throne-db-sb-sc-ss-sl-al-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -3517,19 +3517,19 @@
         "Sansa Keep - Near Theatre": [
             {
                 "id": "k_near_theatre-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "k_near_theatre-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 }
             },
             {
                 "id": "k_near_theatre-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             }
@@ -3537,7 +3537,7 @@
         "Sansa Keep - Strikebreak": [
             {
                 "id": "k_strikebreak-db-sl-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "cling_gem": true
@@ -3545,7 +3545,7 @@
             },
             {
                 "id": "k_strikebreak-db-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "slide": true,
@@ -3554,7 +3554,7 @@
             },
             {
                 "id": "k_strikebreak-db-sl-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "kicks": 3
@@ -3562,7 +3562,7 @@
             },
             {
                 "id": "k_strikebreak-db-sb-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "cling_gem": true
@@ -3570,7 +3570,7 @@
             },
             {
                 "id": "k_strikebreak-db-sb-ss-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "sunsetter": true,
@@ -3579,7 +3579,7 @@
             },
             {
                 "id": "k_strikebreak-db-sb-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "kicks": 3
@@ -3587,7 +3587,7 @@
             },
             {
                 "id": "k_strikebreak-ss-sl-cg",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "cling_gem": true
@@ -3598,7 +3598,7 @@
             },
             {
                 "id": "k_strikebreak-ss-sl-1k",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 1
@@ -3609,7 +3609,7 @@
             },
             {
                 "id": "k_strikebreak-db-ss-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
                     "slide": true
@@ -3620,7 +3620,7 @@
             },
             {
                 "id": "k_strikebreak-db-sl-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "kicks": 1
@@ -3631,7 +3631,7 @@
             },
             {
                 "id": "k_strikebreak-db-sb-ss",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "sunsetter": true
@@ -3642,7 +3642,7 @@
             },
             {
                 "id": "k_strikebreak-db-sb-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "kicks": 1
@@ -3653,7 +3653,7 @@
             },
             {
                 "id": "k_strikebreak-ss-sl",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "slide": true
                 },
@@ -3664,7 +3664,7 @@
             },
             {
                 "id": "k_strikebreak-db-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "slide": true
                 },
@@ -3676,13 +3676,13 @@
         "Sansa Keep - Sunsetter": [
             {
                 "id": "k_sunsetter-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "k_sunsetter-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -3693,25 +3693,25 @@
         "The Underbelly - Alcove Near Light": [
             {
                 "id": "u_pillar_alcove-db",
-                "items": {
+                "loadout": {
                     "dream_breaker": true
                 }
             },
             {
                 "id": "u_pillar_alcove-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "u_pillar_alcove-4k",
-                "items": {
+                "loadout": {
                     "kicks": 4
                 }
             },
             {
                 "id": "u_pillar_alcove-sl-sw-3k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 3
@@ -3719,7 +3719,7 @@
             },
             {
                 "id": "u_pillar_alcove-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 },
                 "tags": [
@@ -3728,7 +3728,7 @@
             },
             {
                 "id": "u_pillar_alcove-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 },
                 "tags": [
@@ -3737,7 +3737,7 @@
             },
             {
                 "id": "u_pillar_alcove-sl-sw-2k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 2
@@ -3748,7 +3748,7 @@
             },
             {
                 "id": "u_pillar_alcove-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -3760,25 +3760,25 @@
         "The Underbelly - Ascendant Light": [
             {
                 "id": "u_ascendant_light",
-                "items": {}
+                "loadout": {}
             }
         ],
         "The Underbelly - Building Near Little Guy": [
             {
                 "id": "u_building-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_building-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "u_building-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 },
                 "tags": [
@@ -3787,7 +3787,7 @@
             },
             {
                 "id": "u_building-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -3796,7 +3796,7 @@
             },
             {
                 "id": "u_building-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -3807,14 +3807,14 @@
         "The Underbelly - Locked Door": [
             {
                 "id": "u_locked-db-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "small_keys": true
                 }
             },
             {
                 "id": "u_locked-ss-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "small_keys": true
                 },
@@ -3826,25 +3826,25 @@
         "The Underbelly - Main Room": [
             {
                 "id": "u_main_room-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_main_room-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             },
             {
                 "id": "u_main_room-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "u_main_room-sl-sw-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 1
@@ -3852,7 +3852,7 @@
             },
             {
                 "id": "u_main_room-sl-sw",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true
                 },
@@ -3862,7 +3862,7 @@
             },
             {
                 "id": "u_main_room-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -3873,26 +3873,26 @@
         "The Underbelly - Rafters Near Keep": [
             {
                 "id": "u_keep_rafters-ss",
-                "items": {
+                "loadout": {
                     "sunsetter": true
                 }
             },
             {
                 "id": "u_keep_rafters-2k",
-                "items": {
+                "loadout": {
                     "kicks": 2
                 }
             },
             {
                 "id": "u_keep_rafters-db-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true
                 }
             },
             {
                 "id": "u_keep_rafters-1k",
-                "items": {
+                "loadout": {
                     "kicks": 1
                 },
                 "tags": [
@@ -3901,7 +3901,7 @@
             },
             {
                 "id": "u_keep_rafters-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -3910,7 +3910,7 @@
             },
             {
                 "id": "u_keep_rafters-sl",
-                "items": {
+                "loadout": {
                     "slide": true
                 },
                 "tags": [
@@ -3921,7 +3921,7 @@
         "The Underbelly - Strikebreak Wall": [
             {
                 "id": "u_strikebreak_wall-db-sb-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "ascendant_light": true
@@ -3929,7 +3929,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-4k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "kicks": 4
@@ -3937,7 +3937,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-ss-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "sunsetter": true,
@@ -3946,7 +3946,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-3k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "kicks": 3
@@ -3957,7 +3957,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-ss-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "sunsetter": true,
@@ -3969,7 +3969,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-ss-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "sunsetter": true,
@@ -3981,7 +3981,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-sl-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "slide": true,
@@ -3993,7 +3993,7 @@
             },
             {
                 "id": "u_strikebreak_wall-db-sb-sl-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "slide": true,
@@ -4007,7 +4007,7 @@
         "The Underbelly - Surrounded By Holes": [
             {
                 "id": "u_holes-db-sb-sc-al",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4016,7 +4016,7 @@
             },
             {
                 "id": "u_holes-db-sb-sc-2k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4025,7 +4025,7 @@
             },
             {
                 "id": "u_holes-sl-sw-cg-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true,
@@ -4034,7 +4034,7 @@
             },
             {
                 "id": "u_holes-db-sb-sc-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4046,7 +4046,7 @@
             },
             {
                 "id": "u_holes-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 },
                 "tags": [
@@ -4055,7 +4055,7 @@
             },
             {
                 "id": "u_holes-db-sb-sc-sl",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4067,7 +4067,7 @@
             },
             {
                 "id": "u_holes-sl-1k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "kicks": 1
                 },
@@ -4079,13 +4079,13 @@
         "Tower Remains - Atop The Tower": [
             {
                 "id": "r_atop_the_tower",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Tower Remains - Cling Gem": [
             {
                 "id": "r_cling_gem-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             }
@@ -4093,13 +4093,13 @@
         "Twilight Theatre - Back Of Auditorium": [
             {
                 "id": "t_auditorium-3k",
-                "items": {
+                "loadout": {
                     "kicks": 3
                 }
             },
             {
                 "id": "t_auditorium-cg",
-                "items": {
+                "loadout": {
                     "cling_gem": true
                 }
             }
@@ -4107,7 +4107,7 @@
         "Twilight Theatre - Center Stage": [
             {
                 "id": "t_center_stage-db-sb-sc-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4118,7 +4118,7 @@
             },
             {
                 "id": "t_center_stage-db-sb-sc-cg-1k",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
@@ -4130,14 +4130,14 @@
         "Twilight Theatre - Corner Beam": [
             {
                 "id": "t_corner_beam-cg-3k",
-                "items": {
+                "loadout": {
                     "cling_gem": true,
                     "kicks": 3
                 }
             },
             {
                 "id": "t_corner_beam-sl-sw-cg",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "cling_gem": true
@@ -4145,7 +4145,7 @@
             },
             {
                 "id": "t_corner_beam-sl-sw-3k",
-                "items": {
+                "loadout": {
                     "slide": true,
                     "solar_wind": true,
                     "kicks": 3
@@ -4155,7 +4155,7 @@
         "Twilight Theatre - Locked Door": [
             {
                 "id": "t_locked-db-cg-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "cling_gem": true,
                     "small_keys": true
@@ -4163,7 +4163,7 @@
             },
             {
                 "id": "t_locked-db-3k-sk",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "kicks": 3,
                     "small_keys": true
@@ -4171,7 +4171,7 @@
             },
             {
                 "id": "t_locked-ss-cg-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "cling_gem": true,
                     "small_keys": true
@@ -4182,7 +4182,7 @@
             },
             {
                 "id": "t_locked-ss-3k-sk",
-                "items": {
+                "loadout": {
                     "sunsetter": true,
                     "kicks": 3,
                     "small_keys": true
@@ -4195,13 +4195,13 @@
         "Twilight Theatre - Murderous Goat": [
             {
                 "id": "t_murderous_goat",
-                "items": {}
+                "loadout": {}
             }
         ],
         "Twilight Theatre - Soul Cutter": [
             {
                 "id": "t_soul_cutter-db-sb",
-                "items": {
+                "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true
                 }
@@ -4209,9 +4209,9 @@
         ]
     },
     "tag_hierarchy": {
-        "expert": ["hard", "obscure"],
-        "hard": ["only_require_6_keys"],
-        "lunatic": ["expert"],
+        "expert": [],
+        "hard": [],
+        "lunatic": [],
         "obscure": []
     }
 }

@@ -54,9 +54,9 @@ class Loadout:
 class Trick:
     id: str
     loadout: Loadout
-    tags: Set[str]
+    tags: List[str]
 
 class LogicTricks:
-    region_tricks: Dict[str, List[Trick]]
+    entrance_tricks: Dict[str, List[Trick]]
     location_tricks: Dict[str, List[Trick]]
     tag_hierarchy: Dict[str, List[str]]

@@ -16,7 +16,7 @@ else:
 class PseudoregaliaRules:
     world: PseudoregaliaWorld
     player: int
-    region_rules: Dict[str, Callable[[CollectionState], bool]]
+    entrance_rules: Dict[str, Callable[[CollectionState], bool]]
     location_rules: Dict[str, Callable[[CollectionState], bool]]
     required_small_keys: int = 7 # Set to 6 for only_require_6_keys tag
 
@@ -30,10 +30,10 @@ class PseudoregaliaRules:
         if ONLY_REQUIRE_SIX_KEYS in tags:
             self.required_small_keys = 6
 
-        region_trick_bit_reps = self.filter_tricks(logic_tricks.region_tricks, tags)
+        entrance_trick_bit_reps = self.filter_tricks(logic_tricks.entrance_tricks, tags)
         location_trick_bit_reps = self.filter_tricks(logic_tricks.location_tricks, tags)
 
-        self.region_rules = self.build_rules(region_trick_bit_reps)
+        self.entrance_rules = self.build_rules(entrance_trick_bit_reps)
         self.location_rules = self.build_rules(location_trick_bit_reps)
 
     def load_logic_tricks(self) -> LogicTricks:
@@ -72,7 +72,7 @@ class PseudoregaliaRules:
                 is_default_trick = len(trick.tags) == 0
                 is_included = trick.id in self.world.options.include_trick_ids.value
                 is_excluded = trick.id in self.world.options.exclude_trick_ids.value
-                player_has_tags = trick.tags <= player_tags
+                player_has_tags = set(trick.tags) <= player_tags
                 if is_default_trick or is_included or not is_excluded and player_has_tags:
                     trick_bit_reps[name].add(trick.loadout.to_bit_rep())
         return trick_bit_reps
@@ -100,7 +100,7 @@ class PseudoregaliaRules:
         multiworld = world.multiworld
         split_kicks = bool(world.options.split_sun_greaves)
 
-        for name, rule in self.region_rules.items():
+        for name, rule in self.entrance_rules.items():
             entrance = multiworld.get_entrance(name, self.player)
             set_rule(entrance, rule)
         for name, rule in self.location_rules.items():

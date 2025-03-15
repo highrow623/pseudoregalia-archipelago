@@ -37,14 +37,14 @@ class Items:
         if state.count("Small Key") >= required_small_keys:
             self.small_keys = True
     
-    def build_hash(self) -> int:
-        items_hash = 0
+    def to_bit_rep(self) -> int:
+        bits = 0
         mask = 1
 
         def mark_if_true(condition: bool):
-            nonlocal items_hash, mask
+            nonlocal bits, mask
             if condition:
-                items_hash = items_hash | mask
+                bits = bits | mask
             mask = mask << 1
 
         mark_if_true(self.dream_breaker)
@@ -61,7 +61,7 @@ class Items:
         mark_if_true(self.kicks >= 4)
         mark_if_true(self.small_keys)
 
-        return items_hash
+        return bits
 
 class Trick:
     id: str

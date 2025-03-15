@@ -14,8 +14,8 @@ else:
 class PseudoregaliaRules:
     world: PseudoregaliaWorld
     player: int
-    region_trick_hashes: Dict[str, Set[int]]
-    location_trick_hashes: Dict[str, Set[int]]
+    region_trick_bit_reps: Dict[str, Set[int]]
+    location_trick_bit_reps: Dict[str, Set[int]]
     required_small_keys: int = 7 # Set to 6 for only_require_6_keys tag
 
     def __init__(self, world: PseudoregaliaWorld) -> None:
@@ -25,8 +25,8 @@ class PseudoregaliaRules:
         logic_tricks = self.load_logic_tricks()
         tags = self.get_tags(logic_tricks)
 
-        self.region_trick_hashes = self.filter_tricks(logic_tricks.region_tricks, tags)
-        self.location_trick_hashes = self.filter_tricks(logic_tricks.location_tricks, tags)
+        self.region_trick_bit_reps = self.filter_tricks(logic_tricks.region_tricks, tags)
+        self.location_trick_bit_reps = self.filter_tricks(logic_tricks.location_tricks, tags)
 
         if ONLY_REQUIRE_SIX_KEYS in tags:
             self.required_small_keys = 6
@@ -57,26 +57,26 @@ class PseudoregaliaRules:
                 tag_queue.add(child_tag)
     
     def filter_tricks(self, rules: Dict[str, List[Trick]], player_tags: Set[str]) -> Dict[str, Set[int]]:
-        trick_hashes: Dict[str, Set[int]] = {}
+        trick_bit_reps: Dict[str, Set[int]] = {}
         for name, tricks in rules.items():
-            trick_hashes[name] = []
+            trick_bit_reps[name] = []
             for trick in tricks:
                 is_default_trick = len(trick.tags) == 0
                 is_included = trick.id in self.world.options.include_trick_ids.value
                 is_excluded = trick.id in self.world.options.exclude_trick_ids.value
                 player_has_tags = trick.tags <= player_tags
                 if is_default_trick or is_included or not is_excluded and player_has_tags:
-                    trick_hashes[name].add(trick.items.build_hash())
-        return trick_hashes
+                    trick_bit_reps[name].add(trick.items.to_bit_rep())
+        return trick_bit_reps
 
-    def build_rule(self, trick_hashes: Set[int]) -> Callable[[CollectionState], bool]:
+    def build_rule(self, trick_bit_reps: Set[int]) -> Callable[[CollectionState], bool]:
         def rule(state: CollectionState) -> bool:
-            if len(trick_hashes) == 0:
+            if len(trick_bit_reps) == 0:
                 return True
 
-            state_hash = Items(state, self.player, self.required_small_keys).build_hash()
-            for trick_hash in trick_hashes:
-                if trick_hash & state_hash == trick_hash:
+            state_bit_rep = Items(state, self.player, self.required_small_keys).to_bit_rep()
+            for trick_bit_rep in trick_bit_reps:
+                if trick_bit_rep & state_bit_rep == trick_bit_rep:
                     return True
             return False
         return rule
@@ -86,12 +86,12 @@ class PseudoregaliaRules:
         multiworld = self.world.multiworld
         split_kicks = bool(world.options.split_sun_greaves)
 
-        for name, trick_hashes in self.region_trick_hashes.items():
-            rule = self.build_rule(trick_hashes)
+        for name, trick_bit_reps in self.region_trick_bit_reps.items():
+            rule = self.build_rule(trick_bit_reps)
             entrance = multiworld.get_entrance(name, self.player)
             set_rule(entrance, rule)
-        for name, trick_hashes in self.location_trick_hashes.items():
-            rule = self.build_rule(trick_hashes)
+        for name, trick_bit_reps in self.location_trick_bit_reps.items():
+            rule = self.build_rule(trick_bit_reps)
             if name == SUN_GREAVES and split_kicks:
                 for i in range(1, 4):
                     new_name = f"{name} {i}"

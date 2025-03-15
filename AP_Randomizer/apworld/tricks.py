@@ -1,7 +1,7 @@
-from typing import Dict, List
+from typing import Dict, List, Set
 from BaseClasses import CollectionState
 
-class Items:
+class Loadout:
     dream_breaker: bool = False
     strikebreak: bool = False
     soul_cutter: bool = False
@@ -14,37 +14,27 @@ class Items:
     small_keys: bool = False
 
     def __init__(self, state: CollectionState, player: int, required_small_keys: int):
-        if state.has_any({"Dream Breaker", "Progressive Dream Breaker"}, player):
-            self.dream_breaker = True
-        if state.has("Strikebreak", player) or state.count("Progressive Dream Breaker", player) >= 2:
-            self.strikebreak = True
-        if state.has("Soul Cutter", player) or state.count("Progressive Dream Breaker", player) >= 3:
-            self.soul_cutter = True
-        if state.has("Sunsetter", player):
-            self.sunsetter = True
-        if state.has_any({"Slide", "Progressive Slide"}, player):
-            self.slide = True
-        if state.has("Solar Wind", player) or state.count("Progressive Slide", player) >= 2:
-            self.solar_wind = True
-        if state.has("Ascendant Light", player):
-            self.ascendant_light = True
-        if state.has("Cling Gem", player):
-            self.cling_gem = True
-        if (state.has("Sun Greaves", player)):
-            self.kicks += 3
+        self.dream_breaker = state.has_any({"Dream Breaker", "Progressive Dream Breaker"}, player)
+        self.strikebreak = state.has("Strikebreak", player) or state.count("Progressive Dream Breaker", player) >= 2
+        self.soul_cutter = state.has("Soul Cutter", player) or state.count("Progressive Dream Breaker", player) >= 3
+        self.sunsetter = state.has("Sunsetter", player)
+        self.slide = state.has_any({"Slide", "Progressive Slide"}, player)
+        self.solar_wind = state.has("Solar Wind", player) or state.count("Progressive Slide", player) >= 2
+        self.ascendant_light = state.has("Ascendant Light", player)
+        self.cling_gem = state.has("Cling Gem", player)
+        self.kicks += 3 if state.has("Sun Greaves", player) else 0
         self.kicks += state.count("Heliacal Power", player)
         self.kicks += state.count("Air Kick", player)
-        if state.count("Small Key") >= required_small_keys:
-            self.small_keys = True
+        self.small_keys = state.count("Small Key") >= required_small_keys
     
     def to_bit_rep(self) -> int:
-        bits = 0
+        bit_rep = 0
         mask = 1
 
         def mark_if_true(condition: bool):
-            nonlocal bits, mask
+            nonlocal bit_rep, mask
             if condition:
-                bits = bits | mask
+                bit_rep = bit_rep | mask
             mask = mask << 1
 
         mark_if_true(self.dream_breaker)
@@ -55,18 +45,16 @@ class Items:
         mark_if_true(self.solar_wind)
         mark_if_true(self.ascendant_light)
         mark_if_true(self.cling_gem)
-        mark_if_true(self.kicks >= 1)
-        mark_if_true(self.kicks >= 2)
-        mark_if_true(self.kicks >= 3)
-        mark_if_true(self.kicks >= 4)
+        for i in range(1, 5):
+            mark_if_true(self.kicks >= i)
         mark_if_true(self.small_keys)
 
-        return bits
+        return bit_rep
 
 class Trick:
     id: str
-    items: Items
-    tags: List[str]
+    loadout: Loadout
+    tags: Set[str]
 
 class LogicTricks:
     region_tricks: Dict[str, List[Trick]]

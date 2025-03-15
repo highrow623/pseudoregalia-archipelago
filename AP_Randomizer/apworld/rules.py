@@ -1,7 +1,9 @@
 from BaseClasses import CollectionState
-from typing import Dict, Callable, TYPE_CHECKING
+from typing import Dict, Callable, List, Set, TYPE_CHECKING
 from worlds.generic.Rules import set_rule
-from .constants.difficulties import NORMAL
+from tricks import LogicTricks, Trick, Items
+from .constants.tags import ONLY_REQUIRE_SIX_KEYS
+from .constants.names import SUN_GREAVES
 
 if TYPE_CHECKING:
     from . import PseudoregaliaWorld
@@ -9,166 +11,93 @@ else:
     PseudoregaliaWorld = object
 
 
-class PseudoregaliaRulesHelpers:
+class PseudoregaliaRules:
     world: PseudoregaliaWorld
     player: int
-    region_rules: Dict[str, Callable[[CollectionState], bool]]
-    location_rules: Dict[str, Callable[[CollectionState], bool]]
-    required_small_keys: int = 6  # Set to 7 for Normal logic.
+    region_trick_hashes: Dict[str, Set[int]]
+    location_trick_hashes: Dict[str, Set[int]]
+    required_small_keys: int = 7 # Set to 6 for only_require_6_keys tag
 
     def __init__(self, world: PseudoregaliaWorld) -> None:
         self.world = world
         self.player = world.player
 
-        self.region_rules = {
-            "Empty Bailey -> Castle Main": lambda state: True,
-            "Empty Bailey -> Theatre Pillar": lambda state: True,
-            "Empty Bailey -> Tower Remains": lambda state:
-                self.has_gem(state)
-                or state.has_all({"Slide", "Sunsetter"}, self.player)
-                or self.get_kicks(state, 1),
-            "Tower Remains -> Underbelly Little Guy": lambda state:
-                self.has_plunge(state),
-            "Tower Remains -> The Great Door": lambda state:
-                self.has_gem(state) and self.get_kicks(state, 3),
-            "Theatre Main -> Keep Main": lambda state:
-                self.has_gem(state),
-            "Theatre Pillar -> Theatre Main": lambda state:
-                state.has_all({"Sunsetter", "Cling Gem"}, self.player)
-                or self.has_plunge(state) and self.get_kicks(state, 4),
-            "Theatre Outside Scythe Corridor -> Theatre Main": lambda state:
-                self.has_gem(state) and self.get_kicks(state, 3)
-                or self.has_gem(state) and self.can_slidejump(state),
-        }
+        logic_tricks = self.load_logic_tricks()
+        tags = self.get_tags(logic_tricks)
 
-        self.location_rules = {
-            "Empty Bailey - Solar Wind": lambda state:
-                self.has_slide(state),
-            "Empty Bailey - Cheese Bell": lambda state:
-                self.can_slidejump(state) and self.get_kicks(state, 1) and self.has_plunge(state)
-                or self.can_slidejump(state) and self.has_gem(state)
-                or self.get_kicks(state, 3) and self.has_plunge(state),
-            "Empty Bailey - Inside Building": lambda state:
-                self.has_slide(state),
-            "Empty Bailey - Center Steeple": lambda state:
-                self.get_kicks(state, 3)
-                or state.has_all({"Sunsetter", "Slide"}, self.player),
-            "Empty Bailey - Guarded Hand": lambda state:
-                self.has_plunge(state)
-                or self.has_gem(state)
-                or self.get_kicks(state, 3),
-            "Twilight Theatre - Soul Cutter": lambda state:
-                self.can_strikebreak(state),
-            "Twilight Theatre - Corner Beam": lambda state:
-                self.has_gem(state) and self.get_kicks(state, 3)
-                or self.has_gem(state) and self.can_slidejump(state)
-                or self.get_kicks(state, 3) and self.can_slidejump(state),
-            "Twilight Theatre - Locked Door": lambda state:
-                self.has_small_keys(state)
-                and (
-                    self.has_gem(state)
-                    or self.get_kicks(state, 3)),
-            "Twilight Theatre - Back Of Auditorium": lambda state:
-                self.get_kicks(state, 3)
-                or self.has_gem(state),
-            "Twilight Theatre - Murderous Goat": lambda state: True,
-            "Twilight Theatre - Center Stage": lambda state:
-                self.can_soulcutter(state) and self.has_gem(state) and self.can_slidejump(state)
-                or self.can_soulcutter(state) and self.has_gem(state) and self.get_kicks(state, 1),
-            "Tower Remains - Cling Gem": lambda state:
-                self.get_kicks(state, 3),
-            "Tower Remains - Atop The Tower": lambda state: True,
-        }
+        self.region_trick_hashes = self.filter_tricks(logic_tricks.region_tricks, tags)
+        self.location_trick_hashes = self.filter_tricks(logic_tricks.location_tricks, tags)
 
-    def has_breaker(self, state) -> bool:
-        return state.has_any({"Dream Breaker", "Progressive Dream Breaker"}, self.player)
+        if ONLY_REQUIRE_SIX_KEYS in tags:
+            self.required_small_keys = 6
 
-    def has_slide(self, state) -> bool:
-        return state.has_any({"Slide", "Progressive Slide"}, self.player)
+    def load_logic_tricks(self) -> LogicTricks:
+        # TODO load logic tricks from tricks.json file
+        pass
 
-    def has_plunge(self, state) -> bool:
-        return state.has("Sunsetter", self.player)
+    def get_tags(self, tag_hierarchy: Dict[str, List[str]]) -> Set[str]:
+        tags: Set[str] = set() # already evaluated
+        tag_queue: Set[str] = set() # to add but not yet evaluated
+        for tag in self.world.options.trick_tags.value:
+            tag_queue.add(tag)
+        
+        while True:
+            if len(tag_queue) == 0:
+                return tags
+            
+            tag = tag_queue.pop()
+            tags.add(tag)
 
-    def has_gem(self, state) -> bool:
-        return state.has("Cling Gem", self.player)
+            if tag not in tag_hierarchy:
+                continue
 
-    def can_bounce(self, state) -> bool:
-        return self.has_breaker(state) and state.has("Ascendant Light", self.player)
+            for child_tag in tag_hierarchy[tag]:
+                if child_tag in tags:
+                    continue
+                tag_queue.add(child_tag)
+    
+    def filter_tricks(self, rules: Dict[str, List[Trick]], player_tags: Set[str]) -> Dict[str, Set[int]]:
+        trick_hashes: Dict[str, Set[int]] = {}
+        for name, tricks in rules.items():
+            trick_hashes[name] = []
+            for trick in tricks:
+                is_default_trick = len(trick.tags) == 0
+                is_included = trick.id in self.world.options.include_trick_ids.value
+                is_excluded = trick.id in self.world.options.exclude_trick_ids.value
+                player_has_tags = trick.tags <= player_tags
+                if is_default_trick or is_included or not is_excluded and player_has_tags:
+                    trick_hashes[name].add(trick.items.build_hash())
+        return trick_hashes
 
-    def can_attack(self, state) -> bool:
-        """Used where either breaker or sunsetter will work, for example on switches.
-        Using sunsetter is considered Obscure Logic by this method."""
-        raise Exception("can_attack() was not set")
+    def build_rule(self, trick_hashes: Set[int]) -> Callable[[CollectionState], bool]:
+        def rule(state: CollectionState) -> bool:
+            if len(trick_hashes) == 0:
+                return True
 
-    def get_kicks(self, state, count: int) -> bool:
-        kicks: int = 0
-        if (state.has("Sun Greaves", self.player)):
-            kicks += 3
-        kicks += state.count("Heliacal Power", self.player)
-        kicks += state.count("Air Kick", self.player)
-        return kicks >= count
-
-    def kick_or_plunge(self, state, count: int) -> bool:
-        """Used where one air kick can be replaced with sunsetter.
-        Input is the number of kicks needed without plunge."""
-        total: int = 0
-        if (state.has("Sun Greaves", self.player)):
-            total += 3
-        if (state.has("Sunsetter", self.player)):
-            total += 1
-        total += state.count("Heliacal Power", self.player)
-        total += state.count("Air Kick", self.player)
-        return total >= count
-
-    def has_small_keys(self, state) -> bool:
-        if not self.can_attack(state):
+            state_hash = Items(state, self.player, self.required_small_keys).build_hash()
+            for trick_hash in trick_hashes:
+                if trick_hash & state_hash == trick_hash:
+                    return True
             return False
-        return state.count("Small Key", self.player) >= self.required_small_keys
-
-    def navigate_darkrooms(self, state) -> bool:
-        # TODO: Update this to check obscure tricks for breaker only when logic rework nears completion
-        return self.has_breaker(state) or state.has("Ascendant Light", self.player)
-
-    def can_slidejump(self, state) -> bool:
-        return (state.has_all({"Slide", "Solar Wind"}, self.player)
-                or state.count("Progressive Slide", self.player) >= 2)
-
-    def can_strikebreak(self, state) -> bool:
-        return (state.has_all({"Dream Breaker", "Strikebreak"}, self.player)
-                or state.count("Progressive Dream Breaker", self.player) >= 2)
-
-    def can_soulcutter(self, state) -> bool:
-        return (state.has_all({"Dream Breaker", "Strikebreak", "Soul Cutter"}, self.player)
-                or state.count("Progressive Dream Breaker", self.player) >= 3)
-
-    def knows_obscure(self, state) -> bool:
-        """True when Obscure Logic is enabled, False when it isn't."""
-        raise Exception("knows_obscure() was not set")
+        return rule
 
     def set_pseudoregalia_rules(self) -> None:
         world = self.world
         multiworld = self.world.multiworld
         split_kicks = bool(world.options.split_sun_greaves)
-        if bool(world.options.obscure_logic):
-            self.knows_obscure = lambda state: True
-            self.can_attack = lambda state: self.has_breaker(state) or self.has_plunge(state)
-        else:
-            self.knows_obscure = lambda state: False
-            self.can_attack = lambda state: self.has_breaker(state)
 
-        logic_level = world.options.logic_level.value
-        if logic_level == NORMAL:
-            self.required_small_keys = 7
-
-        for name, rule in self.region_rules.items():
+        for name, trick_hashes in self.region_trick_hashes.items():
+            rule = self.build_rule(trick_hashes)
             entrance = multiworld.get_entrance(name, self.player)
             set_rule(entrance, rule)
-        for name, rule in self.location_rules.items():
-            if name.startswith("Listless Library"):
-                if split_kicks and name.endswith("Greaves"):
-                    continue
-                if not split_kicks and name[-1].isdigit():
-                    continue
+        for name, trick_hashes in self.location_trick_hashes.items():
+            rule = self.build_rule(trick_hashes)
+            if name == SUN_GREAVES and split_kicks:
+                for i in range(1, 4):
+                    new_name = f"{name} {i}"
+                    location = multiworld.get_location(new_name, self.player)
+                    set_rule(location, rule)
+                continue
             location = multiworld.get_location(name, self.player)
             set_rule(location, rule)
 

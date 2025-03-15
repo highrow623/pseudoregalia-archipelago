@@ -1,0 +1,4217 @@
+{
+    "region_tricks": {
+        "Castle => Theatre (Front) -> Castle By Scythe Corridor": [
+            {
+                "id": "c_to_theatre-c_scythe-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_to_theatre-c_scythe-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_to_theatre-c_scythe-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_to_theatre-c_scythe-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_to_theatre-c_scythe-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle => Theatre (Front) -> Castle Moon Room": [
+            {
+                "id": "c_to_theatre-c_moon_room-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_to_theatre-c_moon_room-ss-sl-sw-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_to_theatre-c_moon_room-sl-sw-2k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_to_theatre-c_moon_room-4k",
+                "items": {
+                    "kicks": 4
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_to_theatre-c_moon_room-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle => Theatre (Front) -> Theatre Main": [
+            {
+                "id": "c_to_theatre-t_main",
+                "items": {}
+            }
+        ],
+        "Castle By Scythe Corridor -> Castle => Theatre (Front)": [
+            {
+                "id": "c_scythe-c_to_theatre-ss-cg-1k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_scythe-c_to_theatre-cg-2k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_scythe-c_to_theatre-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_scythe-c_to_theatre-sl-2k",
+                "items": {
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_scythe-c_to_theatre-ss-sl-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Castle By Scythe Corridor -> Castle High Climb": [
+            {
+                "id": "c_scythe-c_high_climb-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_scythe-c_high_climb-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_scythe-c_high_climb-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_scythe-c_high_climb-ss-sl-sw-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_scythe-c_high_climb-db-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_scythe-c_high_climb-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_scythe-c_high_climb-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_scythe-c_high_climb-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle By Scythe Corridor -> Castle Spiral Climb": [
+            {
+                "id": "c_scythe-c_spiral_climb-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_scythe-c_spiral_climb-ss-4k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_scythe-c_spiral_climb-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "Castle Main -> Castle Spiral Climb": [
+            {
+                "id": "c_main-c_spiral_climb-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_main-c_spiral_climb-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_main-c_spiral_climb-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-c_spiral_climb-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-c_spiral_climb-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-c_spiral_climb-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Main -> Dungeon => Castle": [
+            {
+                "id": "c_main-d_to_castle",
+                "items": {}
+            }
+        ],
+        "Castle Main -> Empty Bailey": [
+            {
+                "id": "c_main-b_main",
+                "items": {}
+            }
+        ],
+        "Castle Main -> Keep Main": [
+            {
+                "id": "c_main-k_main",
+                "items": {}
+            }
+        ],
+        "Castle Main -> Library Main": [
+            {
+                "id": "c_main-l_main-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "c_main-l_main-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Castle Main -> Theatre Pillar": [
+            {
+                "id": "c_main-t_pillar-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_main-t_pillar-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_main-t_pillar-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_main-t_pillar-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_main-t_pillar-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-t_pillar-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-t_pillar-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main-t_pillar-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Spiral Climb -> Castle By Scythe Corridor": [
+            {
+                "id": "c_spiral_climb-c_scythe-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_spiral_climb-c_scythe-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_scythe-4k",
+                "items": {
+                    "kicks": 4
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_scythe-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Castle Spiral Climb -> Castle High Climb": [
+            {
+                "id": "c_spiral_climb-c_high_climb-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-db-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-db-sl-sw",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_spiral_climb-c_high_climb",
+                "items": {},
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Spiral Climb -> Castle Main": [
+            {
+                "id": "c_spiral_climb-c_main",
+                "items": {}
+            }
+        ],
+        "Dungeon => Castle -> Castle Main": [
+            {
+                "id": "d_to_castle-c_main",
+                "items": {}
+            }
+        ],
+        "Dungeon => Castle -> Dungeon Mirror": [
+            {
+                "id": "d_to_castle-d_mirror",
+                "items": {}
+            }
+        ],
+        "Dungeon => Castle -> Dungeon Strong Eyes": [
+            {
+                "id": "d_to_castle-d_strong_eyes-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "d_to_castle-d_strong_eyes-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Escape Lower -> Dungeon Escape Upper": [
+            {
+                "id": "d_escape_lower-d_escape_upper-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_escape_lower-d_escape_upper-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Dungeon Escape Lower -> Dungeon Slide": [
+            {
+                "id": "d_escape_lower-d_slide-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "d_escape_lower-d_slide-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Escape Lower -> Underbelly => Dungeon": [
+            {
+                "id": "d_escape_lower-u_to_dungeon",
+                "items": {}
+            }
+        ],
+        "Dungeon Escape Upper -> Theatre Outside Scythe Corridor": [
+            {
+                "id": "d_escape_upper-t_scythe-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "d_escape_upper-t_scythe-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "d_escape_upper-t_scythe-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "d_escape_upper-t_scythe-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "d_escape_upper-t_scythe-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Dungeon Mirror -> Dungeon Slide": [
+            {
+                "id": "d_mirror-d_slide-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "d_mirror-d_slide-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Slide -> Dungeon Escape Lower": [
+            {
+                "id": "d_slide-d_escape_lower-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "d_slide-d_escape_lower-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "d_slide-d_escape_lower-ss-al",
+                "items": {
+                    "sunsetter": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Slide -> Dungeon Mirror": [
+            {
+                "id": "d_slide-d_mirror-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "d_slide-d_mirror-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Slide -> Dungeon Strong Eyes": [
+            {
+                "id": "d_slide-d_strong_eyes-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Dungeon Strong Eyes -> Dungeon => Castle": [
+            {
+                "id": "d_strong_eyes-d_to_castle-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "d_strong_eyes-d_to_castle-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Dungeon Strong Eyes -> Dungeon Slide": [
+            {
+                "id": "d_strong_eyes-d_slide-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Empty Bailey -> Castle Main": [
+            {
+                "id": "b_main-c_main",
+                "items": {}
+            }
+        ],
+        "Empty Bailey -> Theatre Pillar": [
+            {
+                "id": "b_main-t_pillar",
+                "items": {}
+            }
+        ],
+        "Empty Bailey -> Tower Remains": [
+            {
+                "id": "b_main-r_main-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "b_main-r_main-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                }
+            },
+            {
+                "id": "b_main-r_main-1k",
+                "items": {
+                    "kicks": 1
+                }
+            }
+        ],
+        "Keep => Underbelly -> Keep Main": [
+            {
+                "id": "k_to_underbelly-k_main",
+                "items": {}
+            }
+        ],
+        "Keep => Underbelly -> Underbelly => Keep": [
+            {
+                "id": "k_to_underbelly-u_to_keep",
+                "items": {}
+            }
+        ],
+        "Keep Locked Room -> Keep Sunsetter": [
+            {
+                "id": "k_locked-k_sunsetter",
+                "items": {}
+            }
+        ],
+        "Keep Main -> Keep => Underbelly": [
+            {
+                "id": "k_main-k_to_underbelly-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "k_main-k_to_underbelly-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_main-k_to_underbelly-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_main-k_to_underbelly-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Keep Main -> Keep Locked Room": [
+            {
+                "id": "k_main-k_locked-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "k_main-k_locked-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "k_main-k_locked-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_main-k_locked-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_main-k_locked-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_main-k_locked-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_main-k_locked",
+                "items": {},
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "Keep Main -> Keep Path To Throne": [
+            {
+                "id": "k_main-k_path-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            }
+        ],
+        "Keep Main -> Keep Sunsetter": [
+            {
+                "id": "k_main-k_sunsetter-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_main-k_sunsetter",
+                "items": {},
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "Keep Main -> Theatre Outside Scythe Corridor": [
+            {
+                "id": "k_main-t_scythe-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_main-t_scythe-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_main-t_scythe-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "k_main-t_scythe-sl-sw",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true
+                }
+            },
+            {
+                "id": "k_main-t_scythe-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Library Greaves -> Library Top": [
+            {
+                "id": "l_greaves-l_top-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "l_greaves-l_top-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "l_greaves-l_top-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_greaves-l_top-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Library Main -> Library Greaves": [
+            {
+                "id": "l_main-l_greaves-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Library Main -> Library Locked": [
+            {
+                "id": "l_main-l_locked-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "l_main-l_locked-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Library Main -> Library Top": [
+            {
+                "id": "l_main-l_top-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "l_main-l_top-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "l_main-l_top-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "l_main-l_top-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_main-l_top-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "l_main-l_top-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Library Top -> Library Greaves": [
+            {
+                "id": "l_top-l_greaves-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "l_top-l_greaves-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "l_top-l_greaves-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "l_top-l_greaves-db-al-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "l_top-l_greaves-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_top-l_greaves-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_top-l_greaves-db-ss-al-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "ascendant_light": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_top-l_greaves-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "l_top-l_greaves-db-ss-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Theatre Main -> Keep Main": [
+            {
+                "id": "t_main-k_main-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            }
+        ],
+        "Theatre Outside Scythe Corridor -> Theatre Main": [
+            {
+                "id": "t_scythe-t_main-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "t_scythe-t_main-sl-sw-cg",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                }
+            }
+        ],
+        "Theatre Pillar -> Theatre Main": [
+            {
+                "id": "t_pillar-t_main-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "t_pillar-t_main-ss-4k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 4
+                }
+            }
+        ],
+        "Tower Remains -> The Great Door": [
+            {
+                "id": "r_main-r_door-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                }
+            }
+        ],
+        "Tower Remains -> Underbelly Little Guy": [
+            {
+                "id": "r_main-u_little_guy-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            }
+        ],
+        "Underbelly => Dungeon -> Dungeon Escape Lower": [
+            {
+                "id": "u_to_dungeon-d_escape_lower",
+                "items": {}
+            }
+        ],
+        "Underbelly => Dungeon -> Underbelly Ascendant Light": [
+            {
+                "id": "u_to_dungeon-u_ascendant_light-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-db",
+                "items": {
+                    "dream_breaker": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly => Dungeon -> Underbelly Light Pillar": [
+            {
+                "id": "u_to_dungeon-u_pillar",
+                "items": {}
+            }
+        ],
+        "Underbelly => Keep -> Keep => Underbelly": [
+            {
+                "id": "u_to_keep-k_to_underbelly",
+                "items": {}
+            }
+        ],
+        "Underbelly => Keep -> Underbelly Hole": [
+            {
+                "id": "u_to_keep-u_hole-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            }
+        ],
+        "Underbelly Ascendant Light -> Underbelly => Dungeon": [
+            {
+                "id": "u_ascendant_light-u_to_dungeon-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_ascendant_light-u_to_dungeon-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_ascendant_light-u_to_dungeon-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_ascendant_light-u_to_dungeon-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_ascendant_light-u_to_dungeon-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_ascendant_light-u_to_dungeon-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            }
+        ],
+        "Underbelly Ascendant Light -> Underbelly Light Pillar": [
+            {
+                "id": "u_ascendant_light-u_pillar",
+                "items": {}
+            }
+        ],
+        "Underbelly By Heliacal -> Underbelly Main Upper": [
+            {
+                "id": "u_heliacal-u_main_upper-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "u_heliacal-u_main_upper-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-sl-sw-cg",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-db-ss",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-db",
+                "items": {
+                    "dream_breaker": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-4k",
+                "items": {
+                    "kicks": 4
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Hole -> Underbelly => Keep": [
+            {
+                "id": "u_hole-u_to_keep-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Underbelly Hole -> Underbelly Main Lower": [
+            {
+                "id": "u_hole-u_main_lower-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_hole-u_main_lower-sl-sw-cg",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_hole-u_main_lower-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "u_hole-u_main_lower-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_hole-u_main_lower-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_hole-u_main_lower-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_hole-u_main_lower-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Light Pillar -> Underbelly => Dungeon": [
+            {
+                "id": "u_pillar-u_to_dungeon-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_pillar-u_to_dungeon-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "u_pillar-u_to_dungeon-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "u_pillar-u_to_dungeon-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_pillar-u_to_dungeon-ss-sl-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_pillar-u_to_dungeon-sl-2k",
+                "items": {
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Light Pillar -> Underbelly Ascendant Light": [
+            {
+                "id": "u_pillar-u_ascendant_light-db-ss",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-db-4k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-db-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-db-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-db-cg-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-db-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_pillar-u_ascendant_light-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Light Pillar -> Underbelly Main Upper": [
+            {
+                "id": "u_pillar-u_main_upper",
+                "items": {}
+            }
+        ],
+        "Underbelly Little Guy -> Empty Bailey": [
+            {
+                "id": "u_little_guy-b_main",
+                "items": {}
+            }
+        ],
+        "Underbelly Little Guy -> Underbelly Main Lower": [
+            {
+                "id": "u_little_guy-u_main_lower-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_little_guy-u_main_lower-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_little_guy-u_main_lower-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_little_guy-u_main_lower",
+                "items": {},
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "Underbelly Main Lower -> Underbelly By Heliacal": [
+            {
+                "id": "u_main_lower-u_heliacal-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                }
+            },
+            {
+                "id": "u_main_lower-u_heliacal-sl-2k",
+                "items": {
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_heliacal-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Main Lower -> Underbelly Hole": [
+            {
+                "id": "u_main_lower-u_hole-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_main_lower-u_hole-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                }
+            },
+            {
+                "id": "u_main_lower-u_hole-db-ss",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_main_lower-u_hole-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_hole-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_hole-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Main Lower -> Underbelly Little Guy": [
+            {
+                "id": "u_main_lower-u_little_guy",
+                "items": {}
+            }
+        ],
+        "Underbelly Main Lower -> Underbelly Main Upper": [
+            {
+                "id": "u_main_lower-u_main_upper-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_main_lower-u_main_upper-ss-cg-1k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_main_lower-u_main_upper-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-4k",
+                "items": {
+                    "kicks": 4
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-sl-cg",
+                "items": {
+                    "slide": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-sl-3k",
+                "items": {
+                    "slide": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-ss-sl-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-db-sl-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_lower-u_main_upper-sl-2k",
+                "items": {
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Underbelly Main Upper -> Underbelly By Heliacal": [
+            {
+                "id": "u_main_upper-u_heliacal-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_main_upper-u_heliacal-db-sl-sw-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "u_main_upper-u_heliacal-db-cg-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_main_upper-u_heliacal-db-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_heliacal-db-ss-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "Underbelly Main Upper -> Underbelly Light Pillar": [
+            {
+                "id": "u_main_upper-u_pillar-db-ss",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_main_upper-u_pillar-db-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_main_upper-u_pillar-ss-cg-2k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_main_upper-u_pillar-cg-4k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "u_main_upper-u_pillar-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_pillar-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_pillar-db-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_pillar-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_pillar-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_pillar-cg-2k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Underbelly Main Upper -> Underbelly Main Lower": [
+            {
+                "id": "u_main_upper-u_main_lower",
+                "items": {}
+            }
+        ]
+    },
+    "location_tricks": {
+        "Castle Sansa - Alcove Near Dungeon": [
+            {
+                "id": "c_dungeon_alcove-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_dungeon_alcove-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_dungeon_alcove-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_dungeon_alcove-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_dungeon_alcove-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_dungeon_alcove-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_dungeon_alcove-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_dungeon_alcove-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - Alcove Near Scythe Corridor": [
+            {
+                "id": "c_scythe_alcove-ss-cg-1k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_scythe_alcove-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "c_scythe_alcove-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_scythe_alcove-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            },
+            {
+                "id": "c_scythe_alcove-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Castle Sansa - Balcony": [
+            {
+                "id": "c_balcony-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_balcony-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_balcony-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "c_balcony-ss-sl-sw-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_balcony-sl-sw-2k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_balcony-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_balcony-db-sl-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_balcony-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_balcony-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - Corner Corridor": [
+            {
+                "id": "c_corner_corridor-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_corner_corridor-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_corner_corridor-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_corner_corridor-sl-2k",
+                "items": {
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_corner_corridor-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Castle Sansa - Floater In Courtyard": [
+            {
+                "id": "c_courtyard_floater-db-ss-al",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "c_courtyard_floater-db-al-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_courtyard_floater-cg-2k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_courtyard_floater-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_courtyard_floater-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_courtyard_floater-db-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-db-sl-al",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_courtyard_floater-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - High Climb From Courtyard": [
+            {
+                "id": "c_high_climb-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_high_climb-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_high_climb-db-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_high_climb-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_high_climb-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_high_climb-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_high_climb-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - Indignation": [
+            {
+                "id": "c_indignation",
+                "items": {}
+            }
+        ],
+        "Castle Sansa - Locked Door": [
+            {
+                "id": "c_locked-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "c_locked-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Castle Sansa - Near Theatre Front": [
+            {
+                "id": "c_near_theatre-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "c_near_theatre-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_near_theatre-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_near_theatre-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - Platform In Main Halls": [
+            {
+                "id": "c_main_platform-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "c_main_platform-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_main_platform-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_main_platform-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_main_platform-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "c_main_platform-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Castle Sansa - Tall Room Near Wheel Crawlers": [
+            {
+                "id": "c_tall_room-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_tall_room-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_tall_room-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_tall_room-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_tall_room-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_tall_room-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_tall_room-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Castle Sansa - Wheel Crawlers": [
+            {
+                "id": "c_crawlers-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "c_crawlers-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "c_crawlers-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "c_crawlers-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "c_crawlers-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "c_crawlers-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_crawlers-ss-sl-sw",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "c_crawlers-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Dilapidated Dungeon - Alcove Near Mirror": [
+            {
+                "id": "d_mirror_alcove",
+                "items": {}
+            }
+        ],
+        "Dilapidated Dungeon - Dark Orbs": [
+            {
+                "id": "d_dark_orbs-db-al-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "d_dark_orbs-ss-cg-2k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "d_dark_orbs-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "d_dark_orbs-db-al-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "d_dark_orbs-db-sl-sw-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "d_dark_orbs-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_dark_orbs-db-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_dark_orbs-db-ss-sl-sw-al",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_dark_orbs-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_dark_orbs-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_dark_orbs-db-sl-al",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Dilapidated Dungeon - Dream Breaker": [
+            {
+                "id": "d_breaker",
+                "items": {}
+            }
+        ],
+        "Dilapidated Dungeon - Past Poles": [
+            {
+                "id": "d_past_poles-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "d_past_poles-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "d_past_poles-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "d_past_poles-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_past_poles-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_past_poles-ss-sl-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Dilapidated Dungeon - Rafters": [
+            {
+                "id": "d_rafters-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "d_rafters-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "d_rafters-db-al-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "d_rafters-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_rafters-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_rafters-db-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "d_rafters-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_rafters-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_rafters-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_rafters-db-ss-al",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "ascendant_light": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            },
+            {
+                "id": "d_rafters-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Dilapidated Dungeon - Slide": [
+            {
+                "id": "d_slide",
+                "items": {}
+            }
+        ],
+        "Dilapidated Dungeon - Strong Eyes": [
+            {
+                "id": "d_strong_eyes-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "d_strong_eyes-ss-cg-1k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "d_strong_eyes-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "d_strong_eyes-cg-2k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "d_strong_eyes-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_strong_eyes-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "d_strong_eyes-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Empty Bailey - Center Steeple": [
+            {
+                "id": "b_steeple-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "b_steeple-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                }
+            }
+        ],
+        "Empty Bailey - Cheese Bell": [
+            {
+                "id": "b_bell-ss-sl-sw-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "b_bell-sl-sw-cg",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "b_bell-ss-3k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3
+                }
+            }
+        ],
+        "Empty Bailey - Guarded Hand": [
+            {
+                "id": "b_hand-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "b_hand-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "b_hand-3k",
+                "items": {
+                    "kicks": 3
+                }
+            }
+        ],
+        "Empty Bailey - Inside Building": [
+            {
+                "id": "b_building-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Empty Bailey - Solar Wind": [
+            {
+                "id": "b_solar_wind-sl",
+                "items": {
+                    "slide": true
+                }
+            }
+        ],
+        "Listless Library - Locked Door Across": [
+            {
+                "id": "l_locked_across-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "l_locked_across-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "l_locked_across-sl-sw",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true
+                }
+            },
+            {
+                "id": "l_locked_across-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_locked_across-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Listless Library - Locked Door Left": [
+            {
+                "id": "l_locked_left-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "l_locked_left-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "l_locked_left-ss-2k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "l_locked_left-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "l_locked_left-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_locked_left-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "l_locked_left-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "l_locked_left-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Listless Library - Sun Greaves": [
+            {
+                "id": "l_greaves-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "l_greaves-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Listless Library - Upper Back": [
+            {
+                "id": "l_upper_back-db-ss-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "l_upper_back-db-cg-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "l_upper_back-db-ss-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "l_upper_back-db-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "l_upper_back-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "l_upper_back-ss-1k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "l_upper_back-db-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "l_upper_back-db-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "l_upper_back-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Sansa Keep - Alcove Near Locked Door": [
+            {
+                "id": "k_locked_alcove",
+                "items": {}
+            }
+        ],
+        "Sansa Keep - Levers Room": [
+            {
+                "id": "k_levers-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "k_levers-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_levers",
+                "items": {},
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Sansa Keep - Lonely Throne": [
+            {
+                "id": "k_throne-ss-cg-1k",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_throne-ss-al-cg",
+                "items": {
+                    "sunsetter": true,
+                    "ascendant_light": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_throne-al-cg-1k",
+                "items": {
+                    "ascendant_light": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_throne-al-4k",
+                "items": {
+                    "ascendant_light": true,
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "k_throne-ss-al-3k",
+                "items": {
+                    "sunsetter": true,
+                    "ascendant_light": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "k_throne-ss-cg",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_throne-cg-2k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_throne-ss-4k",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 4
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_throne-al-3k",
+                "items": {
+                    "ascendant_light": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_throne-cg-1k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_throne-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "k_throne-ss-al-2k",
+                "items": {
+                    "sunsetter": true,
+                    "ascendant_light": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "k_throne-sl-3k",
+                "items": {
+                    "slide": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "k_throne-ss-sl-2k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            },
+            {
+                "id": "k_throne-db-sb-sc-ss-sl-al-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "sunsetter": true,
+                    "slide": true,
+                    "ascendant_light": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "lunatic"
+                ]
+            }
+        ],
+        "Sansa Keep - Near Theatre": [
+            {
+                "id": "k_near_theatre-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "k_near_theatre-1k",
+                "items": {
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_near_theatre-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            }
+        ],
+        "Sansa Keep - Strikebreak": [
+            {
+                "id": "k_strikebreak-db-sl-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_strikebreak-db-ss-sl-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_strikebreak-db-sl-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "k_strikebreak-db-sb-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "k_strikebreak-db-sb-ss-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "k_strikebreak-db-sb-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "k_strikebreak-ss-sl-cg",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_strikebreak-ss-sl-1k",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_strikebreak-db-ss-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_strikebreak-db-sl-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_strikebreak-db-sb-ss",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_strikebreak-db-sb-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "k_strikebreak-ss-sl",
+                "items": {
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "hard",
+                    "obscure"
+                ]
+            },
+            {
+                "id": "k_strikebreak-db-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Sansa Keep - Sunsetter": [
+            {
+                "id": "k_sunsetter-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "k_sunsetter-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "The Underbelly - Alcove Near Light": [
+            {
+                "id": "u_pillar_alcove-db",
+                "items": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "u_pillar_alcove-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_pillar_alcove-4k",
+                "items": {
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "u_pillar_alcove-sl-sw-3k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "u_pillar_alcove-ss",
+                "items": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_pillar_alcove-3k",
+                "items": {
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_pillar_alcove-sl-sw-2k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_pillar_alcove-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "The Underbelly - Ascendant Light": [
+            {
+                "id": "u_ascendant_light",
+                "items": {}
+            }
+        ],
+        "The Underbelly - Building Near Little Guy": [
+            {
+                "id": "u_building-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_building-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "u_building-2k",
+                "items": {
+                    "kicks": 2
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_building-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_building-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "The Underbelly - Locked Door": [
+            {
+                "id": "u_locked-db-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "u_locked-ss-sk",
+                "items": {
+                    "sunsetter": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "The Underbelly - Main Room": [
+            {
+                "id": "u_main_room-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_main_room-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "u_main_room-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_main_room-sl-sw-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_main_room-sl-sw",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_main_room-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "The Underbelly - Rafters Near Keep": [
+            {
+                "id": "u_keep_rafters-ss",
+                "items": {
+                    "sunsetter": true
+                }
+            },
+            {
+                "id": "u_keep_rafters-2k",
+                "items": {
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_keep_rafters-db-al",
+                "items": {
+                    "dream_breaker": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_keep_rafters-1k",
+                "items": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_keep_rafters-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_keep_rafters-sl",
+                "items": {
+                    "slide": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            }
+        ],
+        "The Underbelly - Strikebreak Wall": [
+            {
+                "id": "u_strikebreak_wall-db-sb-al",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-4k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "kicks": 4
+                }
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-ss-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-3k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "kicks": 3
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-ss-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-ss-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-sl-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_strikebreak_wall-db-sb-sl-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "slide": true,
+                    "cling_gem": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "The Underbelly - Surrounded By Holes": [
+            {
+                "id": "u_holes-db-sb-sc-al",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "ascendant_light": true
+                }
+            },
+            {
+                "id": "u_holes-db-sb-sc-2k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "kicks": 2
+                }
+            },
+            {
+                "id": "u_holes-sl-sw-cg-1k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            },
+            {
+                "id": "u_holes-db-sb-sc-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_holes-cg",
+                "items": {
+                    "cling_gem": true
+                },
+                "tags": [
+                    "hard"
+                ]
+            },
+            {
+                "id": "u_holes-db-sb-sc-sl",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_holes-sl-1k",
+                "items": {
+                    "slide": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            }
+        ],
+        "Tower Remains - Atop The Tower": [
+            {
+                "id": "r_atop_the_tower",
+                "items": {}
+            }
+        ],
+        "Tower Remains - Cling Gem": [
+            {
+                "id": "r_cling_gem-3k",
+                "items": {
+                    "kicks": 3
+                }
+            }
+        ],
+        "Twilight Theatre - Back Of Auditorium": [
+            {
+                "id": "t_auditorium-3k",
+                "items": {
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "t_auditorium-cg",
+                "items": {
+                    "cling_gem": true
+                }
+            }
+        ],
+        "Twilight Theatre - Center Stage": [
+            {
+                "id": "t_center_stage-db-sb-sc-sl-sw-cg",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "t_center_stage-db-sb-sc-cg-1k",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "soul_cutter": true,
+                    "cling_gem": true,
+                    "kicks": 1
+                }
+            }
+        ],
+        "Twilight Theatre - Corner Beam": [
+            {
+                "id": "t_corner_beam-cg-3k",
+                "items": {
+                    "cling_gem": true,
+                    "kicks": 3
+                }
+            },
+            {
+                "id": "t_corner_beam-sl-sw-cg",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "cling_gem": true
+                }
+            },
+            {
+                "id": "t_corner_beam-sl-sw-3k",
+                "items": {
+                    "slide": true,
+                    "solar_wind": true,
+                    "kicks": 3
+                }
+            }
+        ],
+        "Twilight Theatre - Locked Door": [
+            {
+                "id": "t_locked-db-cg-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "cling_gem": true,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "t_locked-db-3k-sk",
+                "items": {
+                    "dream_breaker": true,
+                    "kicks": 3,
+                    "small_keys": true
+                }
+            },
+            {
+                "id": "t_locked-ss-cg-sk",
+                "items": {
+                    "sunsetter": true,
+                    "cling_gem": true,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "t_locked-ss-3k-sk",
+                "items": {
+                    "sunsetter": true,
+                    "kicks": 3,
+                    "small_keys": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            }
+        ],
+        "Twilight Theatre - Murderous Goat": [
+            {
+                "id": "t_murderous_goat",
+                "items": {}
+            }
+        ],
+        "Twilight Theatre - Soul Cutter": [
+            {
+                "id": "t_soul_cutter-db-sb",
+                "items": {
+                    "dream_breaker": true,
+                    "strikebreak": true
+                }
+            }
+        ]
+    },
+    "tag_hierarchy": {
+        "expert": ["hard", "obscure"],
+        "hard": ["only_require_6_keys"],
+        "lunatic": ["expert"],
+        "obscure": []
+    }
+}

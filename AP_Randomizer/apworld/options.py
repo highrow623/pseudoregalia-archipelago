@@ -1,45 +1,34 @@
 from dataclasses import dataclass
-from Options import Toggle, Choice, DefaultOnToggle, DeathLink, PerGameCommonOptions
-from .constants.difficulties import NORMAL, HARD, EXPERT, LUNATIC
+from Options import Toggle, DefaultOnToggle, DeathLink, PerGameCommonOptions, OptionSet
 
 
-class LogicLevel(Choice):
+class TrickTags(OptionSet):
     """
-    The overall difficulty of the logic, used to determine the requirements to access locations and regions.
+    These tags define which tricks to include in the logic.
+    A default set of tricks is always included, so this can be empty.
 
-    Normal: Suitable for anyone who has beaten the game. Requires backflips and knowing where everything is.
-    Hard: Requires some easier movement tricks such as cling climbing, and more nuanced movement like turning during an air kick.
-    Expert: Requires more difficult movement tricks such as ultrahops and reverse wallkicks, and obscure knowledge.
-    Lunatic: Requires extremely difficult jumps and creative thinking. No holds barred. You have been warned.
-
-    Currently applies to Castle, Dungeon, Library, Keep, and Underbelly.
+    TODO finish this comment
     """
-    display_name = "Logic Level"
-    option_normal = NORMAL
-    option_hard = HARD
-    option_expert = EXPERT
-    option_lunatic = LUNATIC
-    default = NORMAL
+    display_name = "Trick Tags"
 
 
-class ObscureLogic(Toggle):
+class IncludeTrickIDs(OptionSet):
     """
-    Enables logic for obscure knowledge and creative pathing that isn't difficult to execute but may not be obvious or commonly known.
-    This option is forced on if logic level is set to Expert or Lunatic.
+    This list of trick ids bypasses the trick_tags to include tricks that would otherwise be excluded.
 
-    Currently applies to Castle, Dungeon, Library, Keep, and Underbelly.
+    TODO finish this comment
     """
-    display_name = "Obscure Logic"
+    display_name = "Include Trick IDs"
 
 
-class SafeSmallKeys(DefaultOnToggle):
+class ExcludeTrickIDs(OptionSet):
     """
-    No locked doors are in logic until all small keys are obtainable.
-    Prevents potential softlocks when spending small keys out of logic.
+    This list of trick ids bypasses the trick_tags to exclude tricks that would otherwise be included.
+    A default trick (i.e. a trick with no tags) cannot be excluded. (Or else the logic might become impossible!)
 
-    Currently unused.
+    TODO finish this comment
     """
-    display_name = "Safe Small Keys"
+    display_name = "Exclude Trick IDs"
 
 
 class ProgressiveBreaker(DefaultOnToggle):
@@ -65,8 +54,9 @@ class SplitSunGreaves(Toggle):
 
 @dataclass
 class PseudoregaliaOptions(PerGameCommonOptions):
-    logic_level: LogicLevel
-    obscure_logic: ObscureLogic
+    trick_tags: TrickTags
+    include_trick_ids: IncludeTrickIDs
+    exclude_trick_ids: ExcludeTrickIDs
     progressive_breaker: ProgressiveBreaker
     progressive_slide: ProgressiveSlide
     split_sun_greaves: SplitSunGreaves

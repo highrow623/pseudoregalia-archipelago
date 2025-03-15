@@ -4,12 +4,8 @@ from .items import PseudoregaliaItem, item_table, item_frequencies, item_groups
 from .locations import PseudoregaliaLocation, location_table
 from .regions import region_table
 from .options import PseudoregaliaOptions
-from .rules_normal import PseudoregaliaNormalRules
-from .rules_hard import PseudoregaliaHardRules
-from .rules_expert import PseudoregaliaExpertRules
-from .rules_lunatic import PseudoregaliaLunaticRules
+from .rules import PseudoregaliaRules
 from typing import Dict, Any
-from .constants.difficulties import NORMAL, HARD, EXPERT, LUNATIC
 
 
 class PseudoregaliaWorld(World):
@@ -75,19 +71,12 @@ class PseudoregaliaWorld(World):
     def fill_slot_data(self) -> Dict[str, Any]:
         return {"slot_number": self.player,
                 "death_link": bool(self.options.death_link),
-                "logic_level": self.options.logic_level.value,
-                "obscure_logic": bool(self.options.obscure_logic),
+                "trick_tags": self.options.trick_tags.value,
+                "include_trick_ids": self.options.include_trick_ids.value,
+                "exclude_trick_ids": self.options.exclude_trick_ids.value,
                 "progressive_breaker": bool(self.options.progressive_breaker),
                 "progressive_slide": bool(self.options.progressive_slide),
                 "split_sun_greaves": bool(self.options.split_sun_greaves), }
 
     def set_rules(self):
-        difficulty = self.options.logic_level
-        if difficulty == NORMAL:
-            PseudoregaliaNormalRules(self).set_pseudoregalia_rules()
-        elif difficulty == HARD:
-            PseudoregaliaHardRules(self).set_pseudoregalia_rules()
-        elif difficulty == EXPERT:
-            PseudoregaliaExpertRules(self).set_pseudoregalia_rules()
-        elif difficulty == LUNATIC:
-            PseudoregaliaLunaticRules(self).set_pseudoregalia_rules()
+        PseudoregaliaRules(self).set_pseudoregalia_rules()

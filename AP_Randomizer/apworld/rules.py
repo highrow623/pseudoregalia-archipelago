@@ -45,8 +45,8 @@ class PseudoregaliaRules:
         current_dir = os.path.dirname(os.path.realpath(__file__))
         tricks_path = os.path.join(current_dir, "tricks.json")
         with open(tricks_path) as f:
-            logic_tricks_dict = json.load(f)
-            return json_to_logic_tricks(logic_tricks_dict)
+            logic_tricks_json = json.load(f)
+            return json_to_logic_tricks(logic_tricks_json)
 
     def get_tags(self) -> Set[str]:
         tags: Set[str] = set() # already evaluated
@@ -69,11 +69,11 @@ class PseudoregaliaRules:
                     continue
                 tag_queue.add(child_tag)
     
-    def filter_tricks(self, rules: Dict[str, List[Trick]]) -> Dict[str, Set[int]]:
+    def filter_tricks(self, rule_tricks: Dict[str, List[Trick]]) -> Dict[str, Set[int]]:
         trick_bit_reps: Dict[str, Set[int]] = {}
-        for name, tricks in rules.items():
+        for name, tricks_list in rule_tricks.items():
             trick_bit_reps[name] = set()
-            for trick in tricks:
+            for trick in tricks_list:
                 is_default_trick = len(trick.tags) == 0
                 is_included = trick.id in self.world.options.include_trick_ids.value
                 is_excluded = trick.id in self.world.options.exclude_trick_ids.value

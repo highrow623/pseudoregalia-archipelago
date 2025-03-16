@@ -1,5 +1,7 @@
 from dataclasses import dataclass
-from typing import Dict, Set, List, Any
+from typing import Dict, Set, List
+import re
+
 from BaseClasses import CollectionState
 
 @dataclass
@@ -105,3 +107,42 @@ def add_to_minimal_set(bit_reps: Set[int], bit_rep: int) -> Set[int]:
         # otherwise, the bit_reps are incomparable, so we keep both
         new_minimal_set.add(known_bit_rep)
     return new_minimal_set
+
+def bit_rep_to_summary(bit_rep: int) -> str:
+    summary = ""
+    mask = 1
+
+    def add_to_summary_if_mask(item: str):
+        nonlocal summary, mask
+        if bit_rep & mask != 0:
+            summary += f"{item}, "
+        mask = mask << 1
+    
+    def check() -> bool:
+        nonlocal mask
+        has = bit_rep & mask != 0
+        mask = mask << 1
+        return has
+    
+    add_to_summary_if_mask("dream breaker")
+    add_to_summary_if_mask("strikebreak")
+    add_to_summary_if_mask("soul cutter")
+    add_to_summary_if_mask("sunsetter")
+    add_to_summary_if_mask("slide")
+    add_to_summary_if_mask("solar wind")
+    add_to_summary_if_mask("ascendant light")
+    add_to_summary_if_mask("cling gem")
+    kicks = 0
+    kicks += 1 if check() else 0
+    kicks += 1 if check() else 0
+    kicks += 1 if check() else 0
+    kicks += 1 if check() else 0
+    if kicks == 1:
+        summary += "1 kick, "
+    elif kicks > 1:
+        summary += f"{kicks} kicks, "
+    add_to_summary_if_mask("small keys")
+
+    summary = re.sub(", $", "", summary)
+
+    return f"[{summary}]"

@@ -469,32 +469,19 @@
                 ]
             },
             {
-                "id": "c_spiral_climb-c_high_climb-db-sl-sw",
+                "id": "c_spiral_climb-c_high_climb-sl",
                 "loadout": {
-                    "dream_breaker": true,
-                    "slide": true,
-                    "solar_wind": true
+                    "slide": true
                 },
                 "tags": [
-                    "hard",
-                    "obscure"
+                    "expert"
                 ]
             },
             {
-                "id": "c_spiral_climb-c_high_climb-ss-sl-sw",
+                "id": "c_spiral_climb-c_high_climb-2k",
                 "loadout": {
-                    "sunsetter": true,
-                    "slide": true,
-                    "solar_wind": true
+                    "kicks": 2
                 },
-                "tags": [
-                    "hard",
-                    "obscure"
-                ]
-            },
-            {
-                "id": "c_spiral_climb-c_high_climb",
-                "loadout": {},
                 "tags": [
                     "expert"
                 ]
@@ -674,13 +661,6 @@
             }
         ],
         "Dungeon Slide -> Dungeon Escape Lower": [
-            {
-                "id": "d_slide-d_escape_lower-db-al",
-                "loadout": {
-                    "dream_breaker": true,
-                    "ascendant_light": true
-                }
-            },
             {
                 "id": "d_slide-d_escape_lower-db",
                 "loadout": {
@@ -883,14 +863,6 @@
                 ]
             }
         ],
-        "Keep Main -> Keep Path To Throne": [
-            {
-                "id": "k_main-k_path-db",
-                "loadout": {
-                    "dream_breaker": true
-                }
-            }
-        ],
         "Keep Main -> Keep Sunsetter": [
             {
                 "id": "k_main-k_sunsetter-6c",
@@ -1053,6 +1025,15 @@
                 "tags": [
                     "expert"
                 ]
+            },
+            {
+                "id": "l_main-l_top-ss",
+                "loadout": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "expert"
+                ]
             }
         ],
         "Library Top -> Library Greaves": [
@@ -1197,8 +1178,16 @@
         ],
         "Underbelly => Dungeon -> Dungeon Escape Lower": [
             {
-                "id": "u_to_dungeon-d_escape_lower",
-                "loadout": {}
+                "id": "u_to_dungeon-d_escape_lower-db",
+                "loadout": {
+                    "dream_breaker": true
+                }
+            },
+            {
+                "id": "u_to_dungeon-d_escape_lower-al",
+                "loadout": {
+                    "ascendant_light": true
+                }
             }
         ],
         "Underbelly => Dungeon -> Underbelly Ascendant Light": [
@@ -1233,6 +1222,15 @@
                 "id": "u_to_dungeon-u_ascendant_light-db",
                 "loadout": {
                     "dream_breaker": true
+                },
+                "tags": [
+                    "obscure"
+                ]
+            },
+            {
+                "id": "u_to_dungeon-u_ascendant_light-ss",
+                "loadout": {
+                    "sunsetter": true
                 },
                 "tags": [
                     "obscure"
@@ -1324,38 +1322,30 @@
                     "kicks": 1
                 },
                 "tags": [
-                    "hard",
-                    "obscure"
+                    "expert"
                 ]
             }
         ],
         "Underbelly Ascendant Light -> Underbelly Light Pillar": [
             {
-                "id": "u_ascendant_light-u_pillar",
-                "loadout": {}
+                "id": "u_ascendant_light-u_pillar-db",
+                "loadout": {
+                    "dream_breaker": true
+                }
             }
         ],
         "Underbelly By Heliacal -> Underbelly Main Upper": [
             {
-                "id": "u_heliacal-u_main_upper-db",
+                "id": "u_heliacal-u_main_upper-db-ss",
                 "loadout": {
-                    "dream_breaker": true
+                    "dream_breaker": true,
+                    "sunsetter": true
                 }
             },
             {
-                "id": "u_heliacal-u_main_upper-1k",
+                "id": "u_heliacal-u_main_upper-ss-6c",
                 "loadout": {
-                    "kicks": 1
-                },
-                "tags": [
-                    "obscure"
-                ]
-            },
-            {
-                "id": "u_heliacal-u_main_upper-sl-sw-6c",
-                "loadout": {
-                    "slide": true,
-                    "solar_wind": true,
+                    "sunsetter": true,
                     "clings": 6
                 },
                 "tags": [
@@ -1363,22 +1353,12 @@
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-db-ss",
+                "id": "u_heliacal-u_main_upper-ss-1k",
                 "loadout": {
-                    "dream_breaker": true,
-                    "sunsetter": true
+                    "sunsetter": true,
+                    "kicks": 1
                 },
                 "tags": [
-                    "hard"
-                ]
-            },
-            {
-                "id": "u_heliacal-u_main_upper-db",
-                "loadout": {
-                    "dream_breaker": true
-                },
-                "tags": [
-                    "hard",
                     "obscure"
                 ]
             },
@@ -1388,23 +1368,23 @@
                     "sunsetter": true
                 },
                 "tags": [
-                    "hard",
-                    "obscure"
+                    "expert"
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-4k",
+                "id": "u_heliacal-u_main_upper-db-sl",
                 "loadout": {
-                    "kicks": 4
+                    "dream_breaker": true,
+                    "slide": true
                 },
                 "tags": [
-                    "hard",
-                    "obscure"
+                    "expert"
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-6c",
+                "id": "u_heliacal-u_main_upper-db-6c",
                 "loadout": {
+                    "dream_breaker": true,
                     "clings": 6
                 },
                 "tags": [
@@ -1412,8 +1392,29 @@
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-2k",
+                "id": "u_heliacal-u_main_upper-db-1k",
                 "loadout": {
+                    "dream_breaker": true,
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-sl-6c",
+                "loadout": {
+                    "slide": true,
+                    "clings": 6
+                },
+                "tags": [
+                    "expert"
+                ]
+            },
+            {
+                "id": "u_heliacal-u_main_upper-sl-2k",
+                "loadout": {
+                    "slide": true,
                     "kicks": 2
                 },
                 "tags": [
@@ -1556,9 +1557,9 @@
                 }
             },
             {
-                "id": "u_pillar-u_ascendant_light-6c-1k",
+                "id": "u_pillar-u_ascendant_light-ss-1k",
                 "loadout": {
-                    "clings": 6,
+                    "sunsetter": true,
                     "kicks": 1
                 },
                 "tags": [
@@ -1580,17 +1581,6 @@
                 "loadout": {
                     "sunsetter": true,
                     "clings": 6
-                },
-                "tags": [
-                    "hard",
-                    "obscure"
-                ]
-            },
-            {
-                "id": "u_pillar-u_ascendant_light-ss-1k",
-                "loadout": {
-                    "sunsetter": true,
-                    "kicks": 1
                 },
                 "tags": [
                     "hard",
@@ -1760,16 +1750,6 @@
                 "tags": [
                     "hard"
                 ]
-            },
-            {
-                "id": "u_main_lower-u_hole-ss-sl",
-                "loadout": {
-                    "sunsetter": true,
-                    "slide": true
-                },
-                "tags": [
-                    "expert"
-                ]
             }
         ],
         "Underbelly Main Lower -> Underbelly Little Guy": [
@@ -1921,6 +1901,17 @@
                 },
                 "tags": [
                     "hard"
+                ]
+            },
+            {
+                "id": "u_main_upper-u_heliacal-db-sl-2k",
+                "loadout": {
+                    "dream_breaker": true,
+                    "slide": true,
+                    "kicks": 2
+                },
+                "tags": [
+                    "expert"
                 ]
             }
         ],
@@ -2216,21 +2207,10 @@
                 }
             },
             {
-                "id": "c_balcony-ss-sl",
+                "id": "c_balcony-sl-sw",
                 "loadout": {
-                    "sunsetter": true,
-                    "slide": true
-                },
-                "tags": [
-                    "hard"
-                ]
-            },
-            {
-                "id": "c_balcony-db-sl-1k",
-                "loadout": {
-                    "dream_breaker": true,
                     "slide": true,
-                    "kicks": 1
+                    "solar_wind": true
                 },
                 "tags": [
                     "hard"
@@ -3334,6 +3314,15 @@
                 "tags": [
                     "expert"
                 ]
+            },
+            {
+                "id": "l_upper_back-ss",
+                "loadout": {
+                    "sunsetter": true
+                },
+                "tags": [
+                    "lunatic"
+                ]
             }
         ],
         "Sansa Keep - Alcove Near Locked Door": [
@@ -3368,47 +3357,53 @@
         ],
         "Sansa Keep - Lonely Throne": [
             {
-                "id": "k_throne-ss-6c-1k",
+                "id": "k_throne-db-ss-6c-1k",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "clings": 6,
                     "kicks": 1
                 }
             },
             {
-                "id": "k_throne-ss-al-6c",
+                "id": "k_throne-db-ss-al-6c",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true,
                     "clings": 6
                 }
             },
             {
-                "id": "k_throne-al-6c-1k",
+                "id": "k_throne-db-al-6c-1k",
                 "loadout": {
+                    "dream_breaker": true,
                     "ascendant_light": true,
                     "clings": 6,
                     "kicks": 1
                 }
             },
             {
-                "id": "k_throne-al-4k",
+                "id": "k_throne-db-al-4k",
                 "loadout": {
+                    "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 4
                 }
             },
             {
-                "id": "k_throne-ss-al-3k",
+                "id": "k_throne-db-ss-al-3k",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true,
                     "kicks": 3
                 }
             },
             {
-                "id": "k_throne-ss-6c",
+                "id": "k_throne-db-ss-6c",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "clings": 6
                 },
@@ -3417,8 +3412,9 @@
                 ]
             },
             {
-                "id": "k_throne-6c-2k",
+                "id": "k_throne-db-6c-2k",
                 "loadout": {
+                    "dream_breaker": true,
                     "clings": 6,
                     "kicks": 2
                 },
@@ -3427,8 +3423,9 @@
                 ]
             },
             {
-                "id": "k_throne-ss-4k",
+                "id": "k_throne-db-ss-4k",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "kicks": 4
                 },
@@ -3437,8 +3434,9 @@
                 ]
             },
             {
-                "id": "k_throne-al-3k",
+                "id": "k_throne-db-al-3k",
                 "loadout": {
+                    "dream_breaker": true,
                     "ascendant_light": true,
                     "kicks": 3
                 },
@@ -3447,8 +3445,9 @@
                 ]
             },
             {
-                "id": "k_throne-6c-1k",
+                "id": "k_throne-db-6c-1k",
                 "loadout": {
+                    "dream_breaker": true,
                     "clings": 6,
                     "kicks": 1
                 },
@@ -3458,8 +3457,9 @@
                 ]
             },
             {
-                "id": "k_throne-6c",
+                "id": "k_throne-db-6c",
                 "loadout": {
+                    "dream_breaker": true,
                     "clings": 6
                 },
                 "tags": [
@@ -3467,8 +3467,9 @@
                 ]
             },
             {
-                "id": "k_throne-ss-al-2k",
+                "id": "k_throne-db-ss-al-2k",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "ascendant_light": true,
                     "kicks": 2
@@ -3478,8 +3479,9 @@
                 ]
             },
             {
-                "id": "k_throne-sl-3k",
+                "id": "k_throne-db-sl-3k",
                 "loadout": {
+                    "dream_breaker": true,
                     "slide": true,
                     "kicks": 3
                 },
@@ -3488,8 +3490,9 @@
                 ]
             },
             {
-                "id": "k_throne-ss-sl-2k",
+                "id": "k_throne-db-ss-sl-2k",
                 "loadout": {
+                    "dream_breaker": true,
                     "sunsetter": true,
                     "slide": true,
                     "kicks": 2
@@ -3532,6 +3535,15 @@
                 "loadout": {
                     "clings": 6
                 }
+            },
+            {
+                "id": "k_near_theatre-sl",
+                "loadout": {
+                    "slide": true
+                },
+                "tags": [
+                    "expert"
+                ]
             }
         ],
         "Sansa Keep - Strikebreak": [
@@ -3586,55 +3598,11 @@
                 }
             },
             {
-                "id": "k_strikebreak-ss-sl-6c",
-                "loadout": {
-                    "sunsetter": true,
-                    "slide": true,
-                    "clings": 6
-                },
-                "tags": [
-                    "obscure"
-                ]
-            },
-            {
-                "id": "k_strikebreak-ss-sl-1k",
-                "loadout": {
-                    "sunsetter": true,
-                    "slide": true,
-                    "kicks": 1
-                },
-                "tags": [
-                    "obscure"
-                ]
-            },
-            {
-                "id": "k_strikebreak-db-ss-sl",
-                "loadout": {
-                    "dream_breaker": true,
-                    "sunsetter": true,
-                    "slide": true
-                },
-                "tags": [
-                    "hard"
-                ]
-            },
-            {
                 "id": "k_strikebreak-db-sl-1k",
                 "loadout": {
                     "dream_breaker": true,
                     "slide": true,
                     "kicks": 1
-                },
-                "tags": [
-                    "hard"
-                ]
-            },
-            {
-                "id": "k_strikebreak-db-sb-ss",
-                "loadout": {
-                    "dream_breaker": true,
-                    "strikebreak": true,
-                    "sunsetter": true
                 },
                 "tags": [
                     "hard"
@@ -3652,14 +3620,14 @@
                 ]
             },
             {
-                "id": "k_strikebreak-ss-sl",
+                "id": "k_strikebreak-db-sb-ss",
                 "loadout": {
-                    "sunsetter": true,
-                    "slide": true
+                    "dream_breaker": true,
+                    "strikebreak": true,
+                    "sunsetter": true
                 },
                 "tags": [
-                    "hard",
-                    "obscure"
+                    "expert"
                 ]
             },
             {
@@ -3868,6 +3836,15 @@
                 "tags": [
                     "expert"
                 ]
+            },
+            {
+                "id": "u_main_room-1k",
+                "loadout": {
+                    "kicks": 1
+                },
+                "tags": [
+                    "expert"
+                ]
             }
         ],
         "The Underbelly - Rafters Near Keep": [
@@ -3914,7 +3891,7 @@
                     "slide": true
                 },
                 "tags": [
-                    "hard"
+                    "expert"
                 ]
             }
         ],

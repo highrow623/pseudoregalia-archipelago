@@ -69,7 +69,7 @@ def state_to_loadout(state: CollectionState, player: int, required_small_keys: i
         ascendant_light = state.has("Ascendant Light", player),
         clings = clings,
         kicks = kicks,
-        small_keys = state.count("Small Key") >= required_small_keys,
+        small_keys = state.count("Small Key", player) >= required_small_keys,
     )
 
 def loadout_to_bit_rep(loadout: Loadout) -> int:
@@ -96,6 +96,26 @@ def loadout_to_bit_rep(loadout: Loadout) -> int:
     mark_if_true(loadout.small_keys)
 
     return bit_rep
+
+# A trick is considered unnessary if there is another trick in the set whose
+# item requirements are less strict. For example, if one trick requires two
+# kicks and another three kicks, the trick that requires three kicks is
+# unnecessary. This is because a rule evaluates to true if the player can do
+# any of the tricks. It is never true that you can have at least three kicks
+# but also less than two.
+#
+# The result of this function is a set where all remaining elements are not
+# comparable.
+def remove_unnecessary_tricks(bit_reps: Set[int]) -> Set[int]:
+    new_set: Set[int] = set()
+    while len(bit_reps) != 0:
+        bit_rep = bit_reps.pop()
+        for other_bit_rep in bit_reps.union(new_set):
+            if bit_rep & other_bit_rep == other_bit_rep:
+                break
+        else:
+            new_set.add(bit_rep)
+    return new_set
 
 def add_to_mutually_incomparable_set(bit_reps: Set[int], bit_rep: int) -> Set[int]:
     new_minimal_set: Set[int] = {bit_rep}

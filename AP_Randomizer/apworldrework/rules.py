@@ -3,7 +3,7 @@ import json
 from BaseClasses import CollectionState
 from typing import Dict, Callable, List, Set, TYPE_CHECKING
 from worlds.generic.Rules import set_rule
-from .tricks import LogicTricks, Trick, json_to_logic_tricks, state_to_loadout, loadout_to_bit_rep, add_to_mutually_incomparable_set
+from .tricks import LogicTricks, Trick, json_to_logic_tricks, state_to_loadout, loadout_to_bit_rep, remove_unnecessary_tricks
 from .constants.tags import ONLY_REQUIRE_SIX_KEYS
 from .constants.names import LOCATION_SUN_GREAVES
 
@@ -54,10 +54,7 @@ class PseudoregaliaRules:
         for tag in self.world.options.trick_tags.value:
             tag_queue.add(tag)
         
-        while True:
-            if len(tag_queue) == 0:
-                return tags
-            
+        while len(tag_queue) != 0:
             tag = tag_queue.pop()
             tags.add(tag)
 
@@ -68,6 +65,8 @@ class PseudoregaliaRules:
                 if child_tag in tags:
                     continue
                 tag_queue.add(child_tag)
+        
+        return tags
     
     def filter_tricks(self, rule_tricks: Dict[str, List[Trick]]) -> Dict[str, Set[int]]:
         trick_bit_reps: Dict[str, Set[int]] = {}
@@ -79,12 +78,8 @@ class PseudoregaliaRules:
                 is_excluded = trick.id in self.world.options.exclude_trick_ids.value
                 player_has_tags = trick.tags <= self.player_tags
                 if is_default_trick or is_included or not is_excluded and player_has_tags:
-                    trick_bit_rep = loadout_to_bit_rep(trick.loadout)
-                    trick_bit_rep_set = add_to_mutually_incomparable_set(trick_bit_rep_set, trick_bit_rep)
-            # if its possible to do the rule with nothing (i.e. bit_rep is 0),
-            # then that will be the only trick because we minimize the set.
-            # therefore the rule would always return true and so we can just
-            # skip it
+                    trick_bit_rep_set.add(loadout_to_bit_rep(trick.loadout))
+            trick_bit_rep_set = remove_unnecessary_tricks(trick_bit_rep_set)
             if next(iter(trick_bit_rep_set)) == 0:
                 continue
             trick_bit_reps[name] = trick_bit_rep_set

@@ -13,7 +13,7 @@ class Loadout:
     slide: bool = False
     solar_wind: bool = False
     ascendant_light: bool = False
-    cling_gem: bool = False
+    clings: int = 0
     kicks: int = 0
     small_keys: bool = False
 
@@ -53,6 +53,8 @@ def json_to_logic_tricks(logic_tricks_json) -> LogicTricks:
         tag_hierarchy=json_to_str_set_dict(logic_tricks_json["tag_hierarchy"]))
 
 def state_to_loadout(state: CollectionState, player: int, required_small_keys: int) -> Loadout:
+    clings = 6 if state.has("Cling Gem", player) else 0
+
     kicks = 3 if state.has("Sun Greaves", player) else 0
     kicks += state.count("Heliacal Power", player)
     kicks += state.count("Air Kick", player)
@@ -65,7 +67,7 @@ def state_to_loadout(state: CollectionState, player: int, required_small_keys: i
         slide = state.has_any({"Slide", "Progressive Slide"}, player),
         solar_wind = state.has("Solar Wind", player) or state.count("Progressive Slide", player) >= 2,
         ascendant_light = state.has("Ascendant Light", player),
-        cling_gem = state.has("Cling Gem", player),
+        clings = clings,
         kicks = kicks,
         small_keys = state.count("Small Key") >= required_small_keys,
     )
@@ -87,7 +89,8 @@ def loadout_to_bit_rep(loadout: Loadout) -> int:
     mark_if_true(loadout.slide)
     mark_if_true(loadout.solar_wind)
     mark_if_true(loadout.ascendant_light)
-    mark_if_true(loadout.cling_gem)
+    for i in range(1, 7):
+        mark_if_true(loadout.clings >= i)
     for i in range(1, 5):
         mark_if_true(loadout.kicks >= i)
     mark_if_true(loadout.small_keys)
@@ -132,16 +135,23 @@ def bit_rep_to_summary(bit_rep: int) -> str:
     add_to_summary_if_next("slide")
     add_to_summary_if_next("solar wind")
     add_to_summary_if_next("ascendant light")
-    add_to_summary_if_next("cling gem")
+
+    clings = 0
+    for _ in range(6):
+        clings += 1 if has_next() else 0
+    if clings == 1:
+        summary += "1 cling, "
+    elif clings > 1:
+        summary += f"{clings} clings, "
+
     kicks = 0
-    kicks += 1 if has_next() else 0
-    kicks += 1 if has_next() else 0
-    kicks += 1 if has_next() else 0
-    kicks += 1 if has_next() else 0
+    for _ in range(4):
+        kicks += 1 if has_next() else 0
     if kicks == 1:
         summary += "1 kick, "
     elif kicks > 1:
         summary += f"{kicks} kicks, "
+
     add_to_summary_if_next("small keys")
 
     summary = re.sub(", $", "", summary)

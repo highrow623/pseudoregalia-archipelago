@@ -2,9 +2,9 @@
     "entrance_tricks": {
         "Castle => Theatre (Front) -> Castle By Scythe Corridor": [
             {
-                "id": "c_to_theatre-c_scythe-cg",
+                "id": "c_to_theatre-c_scythe-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -42,9 +42,9 @@
         ],
         "Castle => Theatre (Front) -> Castle Moon Room": [
             {
-                "id": "c_to_theatre-c_moon_room-cg",
+                "id": "c_to_theatre-c_moon_room-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -91,24 +91,24 @@
         ],
         "Castle By Scythe Corridor -> Castle => Theatre (Front)": [
             {
-                "id": "c_scythe-c_to_theatre-ss-cg-1k",
+                "id": "c_scythe-c_to_theatre-ss-6c-1k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
             {
-                "id": "c_scythe-c_to_theatre-cg-2k",
+                "id": "c_scythe-c_to_theatre-6c-2k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 }
             },
             {
-                "id": "c_scythe-c_to_theatre-cg",
+                "id": "c_scythe-c_to_theatre-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -138,9 +138,9 @@
         ],
         "Castle By Scythe Corridor -> Castle High Climb": [
             {
-                "id": "c_scythe-c_high_climb-cg",
+                "id": "c_scythe-c_high_climb-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -206,9 +206,9 @@
         ],
         "Castle By Scythe Corridor -> Castle Spiral Climb": [
             {
-                "id": "c_scythe-c_spiral_climb-cg",
+                "id": "c_scythe-c_spiral_climb-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -236,16 +236,16 @@
                 }
             },
             {
-                "id": "c_main-c_spiral_climb-ss-cg",
+                "id": "c_main-c_spiral_climb-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "c_main-c_spiral_climb-cg",
+                "id": "c_main-c_spiral_climb-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -319,16 +319,16 @@
         ],
         "Castle Main -> Theatre Pillar": [
             {
-                "id": "c_main-t_pillar-ss-cg",
+                "id": "c_main-t_pillar-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "c_main-t_pillar-cg-1k",
+                "id": "c_main-t_pillar-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -346,9 +346,9 @@
                 }
             },
             {
-                "id": "c_main-t_pillar-cg",
+                "id": "c_main-t_pillar-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -384,9 +384,9 @@
         ],
         "Castle Spiral Climb -> Castle By Scythe Corridor": [
             {
-                "id": "c_spiral_climb-c_scythe-cg",
+                "id": "c_spiral_climb-c_scythe-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -420,9 +420,9 @@
         ],
         "Castle Spiral Climb -> Castle High Climb": [
             {
-                "id": "c_spiral_climb-c_high_climb-cg",
+                "id": "c_spiral_climb-c_high_climb-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -559,9 +559,9 @@
                 }
             },
             {
-                "id": "d_escape_lower-d_escape_upper-cg",
+                "id": "d_escape_lower-d_escape_upper-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -641,9 +641,9 @@
                 }
             },
             {
-                "id": "d_escape_upper-t_scythe-cg",
+                "id": "d_escape_upper-t_scythe-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -764,9 +764,9 @@
         ],
         "Empty Bailey -> Tower Remains": [
             {
-                "id": "b_main-r_main-cg",
+                "id": "b_main-r_main-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -815,9 +815,9 @@
                 }
             },
             {
-                "id": "k_main-k_to_underbelly-cg",
+                "id": "k_main-k_to_underbelly-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -852,16 +852,16 @@
                 }
             },
             {
-                "id": "k_main-k_locked-ss-cg",
+                "id": "k_main-k_locked-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "k_main-k_locked-cg-1k",
+                "id": "k_main-k_locked-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -893,9 +893,9 @@
         ],
         "Keep Main -> Keep Sunsetter": [
             {
-                "id": "k_main-k_sunsetter-cg",
+                "id": "k_main-k_sunsetter-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -908,9 +908,9 @@
         ],
         "Keep Main -> Theatre Outside Scythe Corridor": [
             {
-                "id": "k_main-t_scythe-cg",
+                "id": "k_main-t_scythe-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -945,9 +945,9 @@
         ],
         "Library Greaves -> Library Top": [
             {
-                "id": "l_greaves-l_top-cg",
+                "id": "l_greaves-l_top-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1027,9 +1027,9 @@
                 ]
             },
             {
-                "id": "l_main-l_top-cg",
+                "id": "l_main-l_top-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -1057,16 +1057,16 @@
         ],
         "Library Top -> Library Greaves": [
             {
-                "id": "l_top-l_greaves-ss-cg",
+                "id": "l_top-l_greaves-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "l_top-l_greaves-cg-1k",
+                "id": "l_top-l_greaves-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -1086,9 +1086,9 @@
                 }
             },
             {
-                "id": "l_top-l_greaves-cg",
+                "id": "l_top-l_greaves-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -1139,35 +1139,35 @@
         ],
         "Theatre Main -> Keep Main": [
             {
-                "id": "t_main-k_main-cg",
+                "id": "t_main-k_main-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             }
         ],
         "Theatre Outside Scythe Corridor -> Theatre Main": [
             {
-                "id": "t_scythe-t_main-cg-3k",
+                "id": "t_scythe-t_main-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 }
             },
             {
-                "id": "t_scythe-t_main-sl-sw-cg",
+                "id": "t_scythe-t_main-sl-sw-6c",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             }
         ],
         "Theatre Pillar -> Theatre Main": [
             {
-                "id": "t_pillar-t_main-ss-cg",
+                "id": "t_pillar-t_main-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1180,9 +1180,9 @@
         ],
         "Tower Remains -> The Great Door": [
             {
-                "id": "r_main-r_door-cg-3k",
+                "id": "r_main-r_door-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 }
             }
@@ -1210,9 +1210,9 @@
                 }
             },
             {
-                "id": "u_to_dungeon-u_ascendant_light-cg",
+                "id": "u_to_dungeon-u_ascendant_light-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1288,9 +1288,9 @@
                 }
             },
             {
-                "id": "u_ascendant_light-u_to_dungeon-cg",
+                "id": "u_ascendant_light-u_to_dungeon-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1352,11 +1352,11 @@
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-sl-sw-cg",
+                "id": "u_heliacal-u_main_upper-sl-sw-6c",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "obscure"
@@ -1403,9 +1403,9 @@
                 ]
             },
             {
-                "id": "u_heliacal-u_main_upper-cg",
+                "id": "u_heliacal-u_main_upper-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -1437,11 +1437,11 @@
                 }
             },
             {
-                "id": "u_hole-u_main_lower-sl-sw-cg",
+                "id": "u_hole-u_main_lower-sl-sw-6c",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1469,9 +1469,9 @@
                 ]
             },
             {
-                "id": "u_hole-u_main_lower-cg",
+                "id": "u_hole-u_main_lower-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -1556,9 +1556,9 @@
                 }
             },
             {
-                "id": "u_pillar-u_ascendant_light-cg-1k",
+                "id": "u_pillar-u_ascendant_light-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -1576,10 +1576,10 @@
                 ]
             },
             {
-                "id": "u_pillar-u_ascendant_light-ss-cg",
+                "id": "u_pillar-u_ascendant_light-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard",
@@ -1620,10 +1620,10 @@
                 ]
             },
             {
-                "id": "u_pillar-u_ascendant_light-db-cg-1k",
+                "id": "u_pillar-u_ascendant_light-db-6c-1k",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -1665,9 +1665,9 @@
         ],
         "Underbelly Little Guy -> Underbelly Main Lower": [
             {
-                "id": "u_little_guy-u_main_lower-cg",
+                "id": "u_little_guy-u_main_lower-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -1752,10 +1752,10 @@
                 ]
             },
             {
-                "id": "u_main_lower-u_hole-ss-cg",
+                "id": "u_main_lower-u_hole-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -1787,17 +1787,17 @@
                 }
             },
             {
-                "id": "u_main_lower-u_main_upper-ss-cg-1k",
+                "id": "u_main_lower-u_main_upper-ss-6c-1k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
             {
-                "id": "u_main_lower-u_main_upper-cg-1k",
+                "id": "u_main_lower-u_main_upper-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -1806,10 +1806,10 @@
                 ]
             },
             {
-                "id": "u_main_lower-u_main_upper-ss-cg",
+                "id": "u_main_lower-u_main_upper-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -1825,10 +1825,10 @@
                 ]
             },
             {
-                "id": "u_main_lower-u_main_upper-sl-cg",
+                "id": "u_main_lower-u_main_upper-sl-6c",
                 "loadout": {
                     "slide": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -1895,18 +1895,18 @@
                 }
             },
             {
-                "id": "u_main_upper-u_heliacal-db-cg-2k",
+                "id": "u_main_upper-u_heliacal-db-6c-2k",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 }
             },
             {
-                "id": "u_main_upper-u_heliacal-db-cg",
+                "id": "u_main_upper-u_heliacal-db-6c",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -1940,34 +1940,34 @@
                 }
             },
             {
-                "id": "u_main_upper-u_pillar-ss-cg-2k",
+                "id": "u_main_upper-u_pillar-ss-6c-2k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 }
             },
             {
-                "id": "u_main_upper-u_pillar-cg-4k",
+                "id": "u_main_upper-u_pillar-6c-4k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 4
                 }
             },
             {
-                "id": "u_main_upper-u_pillar-ss-cg",
+                "id": "u_main_upper-u_pillar-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
                 ]
             },
             {
-                "id": "u_main_upper-u_pillar-cg-3k",
+                "id": "u_main_upper-u_pillar-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 },
                 "tags": [
@@ -2005,9 +2005,9 @@
                 ]
             },
             {
-                "id": "u_main_upper-u_pillar-cg-2k",
+                "id": "u_main_upper-u_pillar-6c-2k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 },
                 "tags": [
@@ -2025,16 +2025,16 @@
     "location_tricks": {
         "Castle Sansa - Alcove Near Dungeon": [
             {
-                "id": "c_dungeon_alcove-ss-cg",
+                "id": "c_dungeon_alcove-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "c_dungeon_alcove-cg-1k",
+                "id": "c_dungeon_alcove-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -2052,9 +2052,9 @@
                 }
             },
             {
-                "id": "c_dungeon_alcove-cg",
+                "id": "c_dungeon_alcove-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2091,10 +2091,10 @@
         ],
         "Castle Sansa - Alcove Near Scythe Corridor": [
             {
-                "id": "c_scythe_alcove-ss-cg-1k",
+                "id": "c_scythe_alcove-ss-6c-1k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -2122,9 +2122,9 @@
                 ]
             },
             {
-                "id": "c_scythe_alcove-cg",
+                "id": "c_scythe_alcove-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2180,9 +2180,9 @@
         ],
         "Castle Sansa - Balcony": [
             {
-                "id": "c_balcony-cg",
+                "id": "c_balcony-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2258,9 +2258,9 @@
         ],
         "Castle Sansa - Corner Corridor": [
             {
-                "id": "c_corner_corridor-cg",
+                "id": "c_corner_corridor-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2317,17 +2317,17 @@
                 }
             },
             {
-                "id": "c_courtyard_floater-cg-2k",
+                "id": "c_courtyard_floater-6c-2k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 }
             },
             {
-                "id": "c_courtyard_floater-ss-cg",
+                "id": "c_courtyard_floater-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2348,9 +2348,9 @@
                 ]
             },
             {
-                "id": "c_courtyard_floater-cg-1k",
+                "id": "c_courtyard_floater-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -2368,9 +2368,9 @@
                 ]
             },
             {
-                "id": "c_courtyard_floater-cg",
+                "id": "c_courtyard_floater-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2415,10 +2415,10 @@
                 }
             },
             {
-                "id": "c_high_climb-ss-cg",
+                "id": "c_high_climb-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2439,9 +2439,9 @@
                 ]
             },
             {
-                "id": "c_high_climb-cg",
+                "id": "c_high_climb-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2508,9 +2508,9 @@
                 }
             },
             {
-                "id": "c_near_theatre-cg",
+                "id": "c_near_theatre-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2534,9 +2534,9 @@
                 }
             },
             {
-                "id": "c_main_platform-cg",
+                "id": "c_main_platform-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2576,16 +2576,16 @@
         ],
         "Castle Sansa - Tall Room Near Wheel Crawlers": [
             {
-                "id": "c_tall_room-ss-cg",
+                "id": "c_tall_room-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "c_tall_room-cg-1k",
+                "id": "c_tall_room-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -2596,9 +2596,9 @@
                 }
             },
             {
-                "id": "c_tall_room-cg",
+                "id": "c_tall_room-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2644,9 +2644,9 @@
                 }
             },
             {
-                "id": "c_crawlers-cg",
+                "id": "c_crawlers-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -2710,25 +2710,25 @@
         ],
         "Dilapidated Dungeon - Dark Orbs": [
             {
-                "id": "d_dark_orbs-db-al-cg",
+                "id": "d_dark_orbs-db-al-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "d_dark_orbs-ss-cg-2k",
+                "id": "d_dark_orbs-ss-6c-2k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 }
             },
             {
-                "id": "d_dark_orbs-cg-3k",
+                "id": "d_dark_orbs-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 }
             },
@@ -2751,9 +2751,9 @@
                 }
             },
             {
-                "id": "d_dark_orbs-cg",
+                "id": "d_dark_orbs-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2823,16 +2823,16 @@
         ],
         "Dilapidated Dungeon - Past Poles": [
             {
-                "id": "d_past_poles-ss-cg",
+                "id": "d_past_poles-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "d_past_poles-cg-1k",
+                "id": "d_past_poles-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -2843,9 +2843,9 @@
                 }
             },
             {
-                "id": "d_past_poles-cg",
+                "id": "d_past_poles-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2887,20 +2887,20 @@
                 }
             },
             {
-                "id": "d_rafters-db-al-cg",
+                "id": "d_rafters-db-al-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "ascendant_light": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "obscure"
                 ]
             },
             {
-                "id": "d_rafters-cg",
+                "id": "d_rafters-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -2991,10 +2991,10 @@
                 }
             },
             {
-                "id": "d_strong_eyes-ss-cg-1k",
+                "id": "d_strong_eyes-ss-6c-1k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -3002,9 +3002,9 @@
                 ]
             },
             {
-                "id": "d_strong_eyes-cg-3k",
+                "id": "d_strong_eyes-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 },
                 "tags": [
@@ -3012,9 +3012,9 @@
                 ]
             },
             {
-                "id": "d_strong_eyes-cg-2k",
+                "id": "d_strong_eyes-6c-2k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 },
                 "tags": [
@@ -3023,9 +3023,9 @@
                 ]
             },
             {
-                "id": "d_strong_eyes-cg",
+                "id": "d_strong_eyes-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -3078,11 +3078,11 @@
                 }
             },
             {
-                "id": "b_bell-sl-sw-cg",
+                "id": "b_bell-sl-sw-6c",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3101,9 +3101,9 @@
                 }
             },
             {
-                "id": "b_hand-cg",
+                "id": "b_hand-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3131,9 +3131,9 @@
         ],
         "Listless Library - Locked Door Across": [
             {
-                "id": "l_locked_across-cg",
+                "id": "l_locked_across-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3170,9 +3170,9 @@
         ],
         "Listless Library - Locked Door Left": [
             {
-                "id": "l_locked_left-cg",
+                "id": "l_locked_left-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3255,18 +3255,18 @@
         ],
         "Listless Library - Upper Back": [
             {
-                "id": "l_upper_back-db-ss-cg",
+                "id": "l_upper_back-db-ss-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "l_upper_back-db-cg-1k",
+                "id": "l_upper_back-db-6c-1k",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -3286,10 +3286,10 @@
                 }
             },
             {
-                "id": "l_upper_back-ss-cg",
+                "id": "l_upper_back-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "obscure"
@@ -3306,10 +3306,10 @@
                 ]
             },
             {
-                "id": "l_upper_back-db-cg",
+                "id": "l_upper_back-db-6c",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -3368,26 +3368,26 @@
         ],
         "Sansa Keep - Lonely Throne": [
             {
-                "id": "k_throne-ss-cg-1k",
+                "id": "k_throne-ss-6c-1k",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
             {
-                "id": "k_throne-ss-al-cg",
+                "id": "k_throne-ss-al-6c",
                 "loadout": {
                     "sunsetter": true,
                     "ascendant_light": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "k_throne-al-cg-1k",
+                "id": "k_throne-al-6c-1k",
                 "loadout": {
                     "ascendant_light": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -3407,19 +3407,19 @@
                 }
             },
             {
-                "id": "k_throne-ss-cg",
+                "id": "k_throne-ss-6c",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
                 ]
             },
             {
-                "id": "k_throne-cg-2k",
+                "id": "k_throne-6c-2k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 2
                 },
                 "tags": [
@@ -3447,9 +3447,9 @@
                 ]
             },
             {
-                "id": "k_throne-cg-1k",
+                "id": "k_throne-6c-1k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 },
                 "tags": [
@@ -3458,9 +3458,9 @@
                 ]
             },
             {
-                "id": "k_throne-cg",
+                "id": "k_throne-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -3528,19 +3528,19 @@
                 }
             },
             {
-                "id": "k_near_theatre-cg",
+                "id": "k_near_theatre-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             }
         ],
         "Sansa Keep - Strikebreak": [
             {
-                "id": "k_strikebreak-db-sl-cg",
+                "id": "k_strikebreak-db-sl-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "slide": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3561,11 +3561,11 @@
                 }
             },
             {
-                "id": "k_strikebreak-db-sb-cg",
+                "id": "k_strikebreak-db-sb-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3586,11 +3586,11 @@
                 }
             },
             {
-                "id": "k_strikebreak-ss-sl-cg",
+                "id": "k_strikebreak-ss-sl-6c",
                 "loadout": {
                     "sunsetter": true,
                     "slide": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "obscure"
@@ -3698,9 +3698,9 @@
                 }
             },
             {
-                "id": "u_pillar_alcove-cg",
+                "id": "u_pillar_alcove-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3831,9 +3831,9 @@
                 }
             },
             {
-                "id": "u_main_room-cg",
+                "id": "u_main_room-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -3900,9 +3900,9 @@
                 ]
             },
             {
-                "id": "u_keep_rafters-cg",
+                "id": "u_keep_rafters-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -3992,12 +3992,12 @@
                 ]
             },
             {
-                "id": "u_strikebreak_wall-db-sb-sl-cg",
+                "id": "u_strikebreak_wall-db-sb-sl-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "slide": true,
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "expert"
@@ -4024,11 +4024,11 @@
                 }
             },
             {
-                "id": "u_holes-sl-sw-cg-1k",
+                "id": "u_holes-sl-sw-6c-1k",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             },
@@ -4045,9 +4045,9 @@
                 ]
             },
             {
-                "id": "u_holes-cg",
+                "id": "u_holes-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 },
                 "tags": [
                     "hard"
@@ -4098,49 +4098,49 @@
                 }
             },
             {
-                "id": "t_auditorium-cg",
+                "id": "t_auditorium-6c",
                 "loadout": {
-                    "cling_gem": true
+                    "clings": 6
                 }
             }
         ],
         "Twilight Theatre - Center Stage": [
             {
-                "id": "t_center_stage-db-sb-sc-sl-sw-cg",
+                "id": "t_center_stage-db-sb-sc-sl-sw-6c",
                 "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
-                "id": "t_center_stage-db-sb-sc-cg-1k",
+                "id": "t_center_stage-db-sb-sc-6c-1k",
                 "loadout": {
                     "dream_breaker": true,
                     "strikebreak": true,
                     "soul_cutter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 1
                 }
             }
         ],
         "Twilight Theatre - Corner Beam": [
             {
-                "id": "t_corner_beam-cg-3k",
+                "id": "t_corner_beam-6c-3k",
                 "loadout": {
-                    "cling_gem": true,
+                    "clings": 6,
                     "kicks": 3
                 }
             },
             {
-                "id": "t_corner_beam-sl-sw-cg",
+                "id": "t_corner_beam-sl-sw-6c",
                 "loadout": {
                     "slide": true,
                     "solar_wind": true,
-                    "cling_gem": true
+                    "clings": 6
                 }
             },
             {
@@ -4154,10 +4154,10 @@
         ],
         "Twilight Theatre - Locked Door": [
             {
-                "id": "t_locked-db-cg-sk",
+                "id": "t_locked-db-6c-sk",
                 "loadout": {
                     "dream_breaker": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "small_keys": true
                 }
             },
@@ -4170,10 +4170,10 @@
                 }
             },
             {
-                "id": "t_locked-ss-cg-sk",
+                "id": "t_locked-ss-6c-sk",
                 "loadout": {
                     "sunsetter": true,
-                    "cling_gem": true,
+                    "clings": 6,
                     "small_keys": true
                 },
                 "tags": [
@@ -4209,9 +4209,17 @@
         ]
     },
     "tag_hierarchy": {
-        "expert": ["hard", "obscure"],
-        "hard": ["only_require_6_keys"],
-        "lunatic": ["expert"],
-        "obscure": []
+        "expert": [
+            "hard",
+            "obscure"
+        ],
+        "hard": [
+            "only_require_6_keys"
+        ],
+        "lunatic": [
+            "expert"
+        ],
+        "obscure": [],
+        "only_require_6_keys": []
     }
 }

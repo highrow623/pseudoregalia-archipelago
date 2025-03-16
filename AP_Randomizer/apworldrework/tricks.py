@@ -94,15 +94,16 @@ def loadout_to_bit_rep(loadout: Loadout) -> int:
 
     return bit_rep
 
-def add_to_minimal_set(bit_reps: Set[int], bit_rep: int) -> Set[int]:
+def add_to_mutually_incomparable_set(bit_reps: Set[int], bit_rep: int) -> Set[int]:
     new_minimal_set: Set[int] = {bit_rep}
     for known_bit_rep in bit_reps:
         if known_bit_rep & bit_rep == known_bit_rep:
-            # the new bit_rep is covered by a more restrictive known_bit_rep
+            # known_bit_rep is strictly more permissive than bit_rep
+            # so we can ignore bit_rep
             return bit_reps
         if known_bit_rep & bit_rep == bit_rep:
-            # the new bit_rep is more restrictive than the known_bit_rep
-            # so we can get rid of the known one
+            # bit_rep is strictly more permissive than known_bit_rep
+            # so we can ignore known_bit_rep
             continue
         # otherwise, the bit_reps are incomparable, so we keep both
         new_minimal_set.add(known_bit_rep)

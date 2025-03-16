@@ -113,36 +113,36 @@ def bit_rep_to_summary(bit_rep: int) -> str:
     summary = ""
     mask = 1
 
-    def add_to_summary_if_mask(item: str):
+    def add_to_summary_if_next(item: str):
         nonlocal summary, mask
         if bit_rep & mask != 0:
             summary += f"{item}, "
         mask = mask << 1
     
-    def check() -> bool:
+    def has_next() -> bool:
         nonlocal mask
         has = bit_rep & mask != 0
         mask = mask << 1
         return has
     
-    add_to_summary_if_mask("dream breaker")
-    add_to_summary_if_mask("strikebreak")
-    add_to_summary_if_mask("soul cutter")
-    add_to_summary_if_mask("sunsetter")
-    add_to_summary_if_mask("slide")
-    add_to_summary_if_mask("solar wind")
-    add_to_summary_if_mask("ascendant light")
-    add_to_summary_if_mask("cling gem")
+    add_to_summary_if_next("dream breaker")
+    add_to_summary_if_next("strikebreak")
+    add_to_summary_if_next("soul cutter")
+    add_to_summary_if_next("sunsetter")
+    add_to_summary_if_next("slide")
+    add_to_summary_if_next("solar wind")
+    add_to_summary_if_next("ascendant light")
+    add_to_summary_if_next("cling gem")
     kicks = 0
-    kicks += 1 if check() else 0
-    kicks += 1 if check() else 0
-    kicks += 1 if check() else 0
-    kicks += 1 if check() else 0
+    kicks += 1 if has_next() else 0
+    kicks += 1 if has_next() else 0
+    kicks += 1 if has_next() else 0
+    kicks += 1 if has_next() else 0
     if kicks == 1:
         summary += "1 kick, "
     elif kicks > 1:
         summary += f"{kicks} kicks, "
-    add_to_summary_if_mask("small keys")
+    add_to_summary_if_next("small keys")
 
     summary = re.sub(", $", "", summary)
 

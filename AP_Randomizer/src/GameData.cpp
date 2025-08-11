@@ -35,6 +35,12 @@ namespace GameData {
         bool slidejump_owned;
         bool slidejump_disabled;
 
+        const unordered_map<int, SpawnInfo> spawn_info = {
+            {1, SpawnInfo(L"ZONE_Dungeon", L"gameStart", L"Dungeon Mirror")},
+            {2, SpawnInfo(L"ZONE_LowerCastle", L"lowerWestSave", L"Castle Main")},
+            {3, SpawnInfo(L"Zone_Caves", L"cavesSouthSave", L"Underbelly South")},
+        };
+
         // map -> actor name -> location id + actor class name
         unordered_map<Map, unordered_map<wstring, Interactable>> interactable_table = {
             {Map::Dungeon, {
@@ -745,6 +751,19 @@ namespace GameData {
         bool found = major_keys[index];
         vector<MultiworldLocation> hints = major_key_hints[index];
         return MajorKeyInfo{ item_id, found, hints };
+    }
+
+    const SpawnInfo& GetSpawnInfo() {
+        if (!options.contains("spawn_point")) {
+            return spawn_info.at(1);
+        }
+
+        const int& spawn_point = options.at("spawn_point");
+        if (!spawn_info.contains(spawn_point)) {
+            return spawn_info.at(1);
+        }
+
+        return spawn_info.at(spawn_point);
     }
 
 

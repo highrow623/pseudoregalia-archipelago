@@ -25,4 +25,11 @@ namespace Engine {
 	void WarpToSpawn();
 	void SetTombstoneText(UObject*);
 	void CreateMajorKeyHints(UObject*);
+	void StoreNewFileObject(UObject*);
+	void ClearNewFileObject();
+	void UpdateConnectionStatus(std::wstring, bool);
+	void FinishConnect(std::wstring, std::wstring, std::wstring, std::wstring, std::wstring, std::wstring,
+		               std::wstring, std::wstring);
+	void FinishConnect(std::wstring);
+	void QueueDisconnect();
 }

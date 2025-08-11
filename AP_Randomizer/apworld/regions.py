@@ -1,5 +1,6 @@
 from typing import NamedTuple, Callable, Dict, List
 from BaseClasses import CollectionState
+from .constants import spawns
 
 
 class RegionExit(NamedTuple):
@@ -8,10 +9,13 @@ class RegionExit(NamedTuple):
     breakable_wall: bool = False
 
 
-region_table: Dict[str, List[str]] = {
-    "Menu":
-        ["Castle Main"],
+menu_exits: dict[int, str] = {
+    spawns.DUNGEON_MIRROR: "Dungeon Mirror",
+    spawns.CASTLE_MAIN: "Castle Main",
+    spawns.UNDERBELLY_SOUTH: "Underbelly => Bailey",
+}
 
+region_table: Dict[str, List[str]] = {
     "Dungeon Mirror":
         ["Dungeon Slide"],
     "Dungeon Slide":

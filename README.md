@@ -44,6 +44,27 @@ Note: If you are installing on Steam Deck, please read [the Steam Deck installat
 5. A zip file will be added to Archipelago/output, which can [hosted on the website](https://archipelago.gg/uploads) or hosted locally by clicking Host.
 
 
+# Mod Compatibility
+
+In its current state, `pseudoregalia-archipelago` is "comprehensive": it has its hands in a lot of systems and when it's installed, the game is always in AP mode. This is why it's recommended [above](#mod-installation) to copy the Pseudoregalia folder and install the mod into the copy.
+
+As a comprehensive mod, `pseudoregalia-archipelago` may not be compatible with all other mods. In particular, it is NOT compatible with PseudoMenuMod. It does a similar modification to the main menu that will cause conflicts if both are installed. (The menu modification this mod does is adapted with permission from PseudoMenuMod.)
+
+In general, it's safest to start from a completely fresh Pseudoregalia folder before installing `pseudoregalia-archipelago`. Once installed, you can try adding other mods back in, though understand that your mileage may vary. Some users have reported that the Attire UI Overhaul Mod is compatible with this mod.
+
+TODO note about fixing compatibility with other mods in the future
+
+## Fresh Install
+
+To do a completely fresh install without worrying about finding and removing each mod individually:
+
+1. In Steam, right click Pseudoregalia -> Manage -> Browse local files. This will open the `Pseudoregalia` folder to prepare for steps 3 and 4.
+2. Uninstall Pseudoregalia. This will only remove files from the actual game, leaving mods.
+3. *(Optional)* After uninstalling, copy the `Pseudoregalia` folder to save your currently installed mods so you can easily reinstall them later.
+4. Delete the `Pseudoregalia` folder. This will clear out all mods.
+5. Reinstall Pseudoregalia.
+
+
 # Known Issues
 - The mod will not always fully load before starting the game, especially the first time. If the AP logo doesn't appear in the top right corner of the main menu, try restarting the game.
 - If you're on top of an item when you first connect, it won't spawn until you reload the scene.

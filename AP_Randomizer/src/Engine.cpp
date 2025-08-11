@@ -4,6 +4,7 @@
 #include <unordered_set>
 #include "Unreal/TArray.hpp"
 #include "Unreal/World.hpp"
+#include "Unreal/UObject.hpp"
 #include "Engine.hpp"
 #include "Logger.hpp"
 #include "Client.hpp"
@@ -54,6 +55,10 @@ namespace Engine {
 		mutex blueprint_function_mutex;
 		bool awaiting_item_sync;
 		std::queue<BlueprintFunctionInfo> blueprint_function_queue;
+
+		optional<UObject*> new_file_object;
+
+		bool pending_disconnect = false;
 	} // End private members
 
 
@@ -73,6 +78,11 @@ namespace Engine {
 
 	// Runs once every engine tick.
 	void Engine::OnTick(UObject* blueprint) {
+		if (pending_disconnect) {
+			Client::Disconnect();
+			pending_disconnect = false;
+		}
+
 		// Queue up item syncs together to avoid queueing a bajillion functions on connection or world release.
 		if (awaiting_item_sync) {
 			SyncHealthPieces();
@@ -285,13 +295,14 @@ namespace Engine {
 	}
 
 	void WarpToSpawn() {
+		const auto& spawn_info = GameData::GetSpawnInfo();
 		struct WarpInfo {
 			FString zone;
 			FString playerStart;
 		};
 		shared_ptr<void> warp_params(new WarpInfo{
-			FString(L"ZONE_LowerCastle"),
-			FString(L"lowerWestSave"),
+			FString(spawn_info.zone.c_str()),
+			FString(spawn_info.spawn.c_str()),
 		});
 		ExecuteBlueprintFunction(L"BP_APRandomizerInstance_C", L"AP_Warp", warp_params);
 	}
@@ -342,6 +353,83 @@ namespace Engine {
 		}
 
 		Client::CreateMajorKeyHints(*info);
+	}
+
+	void StoreNewFileObject(UObject* object) {
+		new_file_object = object;
+	}
+
+	void ClearNewFileObject() {
+		new_file_object = {};
+	}
+
+	void UpdateConnectionStatus(wstring status, bool is_error) {
+		if (!new_file_object || new_file_object.value()->IsUnreachable()) {
+			new_file_object = {};
+			return;
+		}
+
+		UFunction* func = new_file_object.value()->GetFunctionByName(L"UpdateConnectionStatus");
+		if (!func) {
+			return;
+		}
+
+		struct UpdateConnectionStatusInfo {
+			FText new_text;
+			bool is_error;
+		};
+		void* params = new UpdateConnectionStatusInfo(FText(status.c_str()), is_error);
+		new_file_object.value()->ProcessEvent(func, params);
+	}
+
+	void FinishConnect(wstring zone, wstring spawn, wstring seed, wstring spawn_name, wstring domain, wstring port,
+		               wstring slot_name, wstring password) {
+		if (!new_file_object || new_file_object.value()->IsUnreachable()) {
+			new_file_object = {};
+			return;
+		}
+
+		UFunction* func = new_file_object.value()->GetFunctionByName(L"FinishConnect");
+		if (!func) {
+			return;
+		}
+
+		struct FinishConnectInfo {
+			FString zone;
+			FString spawn;
+			FString seed;
+			FString spawn_name;
+			FString domain;
+			FString port;
+			FString slot_name;
+			FString password;
+		};
+		void* params = new FinishConnectInfo(FString(zone.c_str()), FString(spawn.c_str()), FString(seed.c_str()),
+			FString(spawn_name.c_str()), FString(domain.c_str()), FString(port.c_str()), FString(slot_name.c_str()),
+			FString(password.c_str()));
+		new_file_object.value()->ProcessEvent(func, params);
+	}
+
+	void FinishConnect(wstring port) {
+		if (!new_file_object || new_file_object.value()->IsUnreachable()) {
+			new_file_object = {};
+			return;
+		}
+
+		UFunction* func = new_file_object.value()->GetFunctionByName(L"FinishConnect");
+		if (!func) {
+			return;
+		}
+
+		struct FinishConnectInfo {
+			FString port;
+		};
+		void* params = new FinishConnectInfo(FString(port.c_str()));
+		new_file_object.value()->ProcessEvent(func, params);
+	}
+
+	void QueueDisconnect() {
+		pending_disconnect = true;
 	}
 
 

@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from Options import Toggle, Choice, DefaultOnToggle, PerGameCommonOptions
 from .constants.difficulties import NORMAL, HARD, EXPERT, LUNATIC
 from .constants.versions import MAP_PATCH, FULL_GOLD
+from .constants import spawns
 
 
 class LogicLevel(Choice):
@@ -28,6 +29,20 @@ class ObscureLogic(Toggle):
     This option is forced on if logic level is set to Expert or Lunatic.
     """
     display_name = "Obscure Logic"
+
+
+class SpawnPoint(Choice):
+    """
+    Where to start the game.
+    In the current implementation, you will always spawn in dungeon when entering a save file. The first time you connect on a save file, you will be warped to the actual spawn.
+    
+    TODO list what the spawns are
+    """
+    display_name = "Spawn Point"
+    option_dungeon_mirror = spawns.DUNGEON_MIRROR
+    option_castle = spawns.CASTLE_MAIN
+    option_underbelly_south = spawns.UNDERBELLY_SOUTH
+    default = spawns.DUNGEON_MIRROR
 
 
 class SafeSmallKeys(DefaultOnToggle):
@@ -159,6 +174,7 @@ class PseudoregaliaOptions(PerGameCommonOptions):
     game_version: GameVersion
     logic_level: LogicLevel
     obscure_logic: ObscureLogic
+    spawn_point: SpawnPoint
     progressive_breaker: ProgressiveBreaker
     progressive_slide: ProgressiveSlide
     split_sun_greaves: SplitSunGreaves

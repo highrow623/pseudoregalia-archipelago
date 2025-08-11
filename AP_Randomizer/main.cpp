@@ -39,6 +39,11 @@ public:
     bool note_tryinteract_hooked = false;
     bool finishnote_hooked = false;
 
+    bool new_connect_hooked = false;
+    bool new_goback_hooked = false;
+    bool existing_connect_hooked = false;
+    bool existing_goback_hooked = false;
+
     AP_Randomizer() : CppUserModBase() {
         ModName = STR("AP_Randomizer");
         ModVersion = STR("0.1.0");
@@ -287,6 +292,34 @@ public:
             auto finishnote = [](UnrealScriptFunctionCallableContext& context, void* customdata) {
                 GameData::FinishNote();
             };
+            auto new_connect = [](UnrealScriptFunctionCallableContext& context, void* customdata) {
+                Engine::StoreNewFileObject(context.Context);
+                struct ConnectParams {
+                    FText domain;
+                    FText port;
+                    FText slot_name;
+                    FText password;
+                };
+                auto& params = context.GetParams<ConnectParams>();
+                Client::Connect(params.domain.ToString(), params.port.ToString(), params.slot_name.ToString(),
+                                params.password.ToString());
+            };
+            auto existing_connect = [](UnrealScriptFunctionCallableContext& context, void* customdata) {
+                Engine::StoreNewFileObject(context.Context);
+                struct ConnectParams {
+                    FText Seed;
+                    FText Domain;
+                    FText Port;
+                    FText SlotName;
+                    FText Password;
+                };
+                auto& params = context.GetParams<ConnectParams>();
+                Client::Connect(params.Domain.ToString(), params.Port.ToString(), params.SlotName.ToString(),
+                                params.Password.ToString(), params.Seed.ToString());
+            };
+            auto disconnect = [](UnrealScriptFunctionCallableContext& context, void* customdata) {
+                Client::Disconnect();
+            };
 
             // I'm not sure why, but this triggers on an object with the name "AP_DeluxeConsole_C" and one with a name
             // like "AP_DeluxeConsole_C_{bunch of numbers}". it seems like the one with the numbers is the "real" one,
@@ -338,6 +371,54 @@ public:
                     Unreal::UObjectGlobals::RegisterHook(text_advance_function, EmptyFunction, finishnote, nullptr);
                     Unreal::UObjectGlobals::RegisterHook(close_self_function, EmptyFunction, finishnote, nullptr);
                     finishnote_hooked = true;
+                }
+            }
+
+            if (object->GetName().starts_with(L"WBP_NewFileMenu_C_")) {
+                if (!new_connect_hooked) {
+                    UFunction* connect_function = object->GetFunctionByName(L"Connect");
+                    if (!connect_function) {
+                        Log(L"Could not find function \"Connect\" in NewFileMenu");
+                        return object;
+                    }
+                    Log(L"Registering hook for Connect");
+                    Unreal::UObjectGlobals::RegisterHook(connect_function, new_connect, EmptyFunction, nullptr);
+                    new_connect_hooked = true;
+                }
+
+                if (!new_goback_hooked) {
+                    UFunction* goback_function = object->GetFunctionByName(L"GoBack");
+                    if (!goback_function) {
+                        Log(L"Could not find function \"GoBack\" in NewFileMenu");
+                        return object;
+                    }
+                    Log(L"Registering hook for GoBack");
+                    UObjectGlobals::RegisterHook(goback_function, disconnect, EmptyFunction, nullptr);
+                    new_goback_hooked = true;
+                }
+            }
+
+            if (object->GetName().starts_with(L"WBP_ExistingFileMenu_C_")) {
+                if (!existing_connect_hooked) {
+                    UFunction* connect_function = object->GetFunctionByName(L"Connect");
+                    if (!connect_function) {
+                        Log(L"Could not find function \"Connect\" in ExistingFileMenu");
+                        return object;
+                    }
+                    Log(L"Registering hook for Connect");
+                    Unreal::UObjectGlobals::RegisterHook(connect_function, existing_connect, EmptyFunction, nullptr);
+                    existing_connect_hooked = true;
+                }
+
+                if (!existing_goback_hooked) {
+                    UFunction* goback_function = object->GetFunctionByName(L"GoBack");
+                    if (!goback_function) {
+                        Log(L"Could not find function \"GoBack\" in ExistingFileMenu");
+                        return object;
+                    }
+                    Log(L"Registering hook for GoBack");
+                    UObjectGlobals::RegisterHook(goback_function, disconnect, EmptyFunction, nullptr);
+                    existing_goback_hooked = true;
                 }
             }
 

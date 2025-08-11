@@ -2,7 +2,7 @@ from worlds.AutoWorld import World
 from BaseClasses import Region, CollectionState
 from .items import PseudoregaliaItem, item_table, item_groups
 from .locations import PseudoregaliaLocation, location_table, zones
-from .regions import region_table
+from .regions import region_table, menu_exits
 from .options import PseudoregaliaOptions
 from .rules_normal import PseudoregaliaNormalRules
 from .rules_hard import PseudoregaliaHardRules
@@ -90,6 +90,10 @@ class PseudoregaliaWorld(World):
     def create_regions(self):
         for region_name in region_table.keys():
             self.multiworld.regions.append(Region(region_name, self.player, self.multiworld))
+        
+        menu_region = Region("Menu", self.player, self.multiworld)
+        self.multiworld.regions.append(menu_region)
+        menu_region.add_exits([menu_exits[self.options.spawn_point.value]])
 
         locations = sorted(location_table.items(), key=lambda loc_pair: zones.index(loc_pair[0].split(" - ")[0]))
         for loc_name, loc_data in locations:
@@ -110,6 +114,7 @@ class PseudoregaliaWorld(World):
             "game_version": self.options.game_version.value,
             "logic_level": self.options.logic_level.value,
             "obscure_logic": bool(self.options.obscure_logic),
+            "spawn_point": self.options.spawn_point.value,
             "progressive_breaker": bool(self.options.progressive_breaker),
             "progressive_slide": bool(self.options.progressive_slide),
             "split_sun_greaves": bool(self.options.split_sun_greaves),

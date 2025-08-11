@@ -3,7 +3,8 @@
 #include "GameData.hpp"
 
 namespace Client {
-	void Connect(const std::string, const std::string, const std::string);
+	void Connect(const std::wstring, const std::wstring, const std::wstring, const std::wstring,
+		         std::optional<std::wstring> = {});
 	void SendCheck(int64_t);
 	void Say(std::string);
 	void PollServer();

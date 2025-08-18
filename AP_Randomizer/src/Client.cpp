@@ -68,6 +68,7 @@ namespace Client {
         if (ap != nullptr) {
             delete ap;
         }
+        ap = nullptr;
         GameData::Initialize();
         wstring uri = domain + L":" + port;
         ap = new APClient(uuid, game_name, StringOps::ToNarrow(uri), cert_store);
